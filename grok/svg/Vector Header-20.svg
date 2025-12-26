@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Layer_" data-name="&amp;lt;Layer&amp;gt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1394.53 1556.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a4284;
+        stroke-miterlimit: 10;
+        stroke-width: 36.73px;
+      }
+    </style>
+  </defs>
+  <g id="training">
+    <g id="g_135" data-name="g 135">
+      <g id="g_136" data-name="g 136">
+        <g id="g_137" data-name="g 137">
+          <g id="g_138" data-name="g 138">
+            <path id="path_104" data-name="path 104" class="cls-1" d="M453.44,575.8c-56.01,56.04-146.85,56.04-202.93,0-27.98-28.01-73.4-28.01-101.43,0-27.98,28.02-27.98,73.44,0,101.45,112.08,112.06,293.77,112.06,405.79,0l-101.43-101.45Z"/>
+          </g>
+          <g id="g_139" data-name="g 139">
+            <path id="path_105" data-name="path 105" class="cls-1" d="M632.61,1056.95c0,39.62-32.14,71.73-71.74,71.73s-71.74-32.11-71.74-71.73,32.14-71.74,71.74-71.74,71.74,32.12,71.74,71.74Z"/>
+          </g>
+          <g id="g_140" data-name="g 140">
+            <path id="path_106" data-name="path 106" class="cls-1" d="M919.59,1056.95c0,39.62-32.14,71.73-71.74,71.73s-71.74-32.11-71.74-71.73,32.14-71.74,71.74-71.74,71.74,32.12,71.74,71.74Z"/>
+          </g>
+          <g id="g_141" data-name="g 141">
+            <path id="path_107" data-name="path 107" class="cls-1" d="M1206.5,1056.95c0,39.62-32.14,71.73-71.74,71.73s-71.74-32.11-71.74-71.73,32.14-71.74,71.74-71.74,71.74,32.12,71.74,71.74Z"/>
+          </g>
+          <g id="g_142" data-name="g 142">
+            <path id="path_108" data-name="path 108" class="cls-1" d="M704.36,1343.89h-289.36c0-78.91,66.97-143.47,145.88-143.47s143.49,64.56,143.49,143.47Z"/>
+          </g>
+          <g id="g_143" data-name="g 143">
+            <path id="path_109" data-name="path 109" class="cls-1" d="M991.33,1343.89h-286.97c0-78.91,64.58-143.47,143.49-143.47s143.49,64.56,143.49,143.47Z"/>
+          </g>
+          <g id="g_144" data-name="g 144">
+            <path id="path_110" data-name="path 110" class="cls-1" d="M1280.63,1343.89h-289.3c0-78.91,64.52-143.47,143.43-143.47s145.87,64.56,145.87,143.47Z"/>
+          </g>
+          <g id="g_145" data-name="g 145">
+            <path id="path_111" data-name="path 111" class="cls-1" d="M271.57,411.32c0,39.62-32.14,71.74-71.74,71.74s-71.74-32.12-71.74-71.74,32.14-71.74,71.74-71.74,71.74,32.12,71.74,71.74Z"/>
+          </g>
+          <g id="g_146" data-name="g 146">
+            <path id="path_112" data-name="path 112" class="cls-1" d="M271.57,749.84v594.05h-143.49v-717.36"/>
+          </g>
+          <g id="g_147" data-name="g 147">
+            <path id="path_113" data-name="path 113" class="cls-1" d="M414.99,603.28v-335.43h865.64v573.89H414.99v-87.41"/>
+          </g>
+          <g id="g_148" data-name="g 148">
+            <path id="path_114" data-name="path 114" class="cls-1" d="M495.49,617.82l206.48-206.5"/>
+          </g>
+          <g id="g_149" data-name="g 149">
+            <path id="path_115" data-name="path 115" class="cls-1" d="M1098.88,447.19l-179.3,179.34-71.74-71.74-143.49,143.47"/>
+          </g>
+          <g id="g_150" data-name="g 150">
+            <path id="path_116" data-name="path 116" class="cls-1" d="M955.46,447.19h143.43v143.47"/>
+          </g>
+          <g id="g_151" data-name="g 151">
+            <path id="path_117" data-name="path 117" class="cls-1" d="M128.08,913.47h143.49"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
