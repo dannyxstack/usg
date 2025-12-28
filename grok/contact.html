@@ -21,8 +21,8 @@
   <!-- top navbar -->
   <div class="top-bar">
     <div class="container d-flex justify-content-end align-items-center">
-      <form class="search-form d-inline-flex" action="https://www.google.com/search" method="get">
-        <input type="text" name="q" class="form-control me-2" placeholder="Search...">
+      <form id="siteSearchForm" class="search-form d-inline-flex" action="https://www.google.com/search" onsubmit="performSiteSearch(event)">
+        <input type="text" id="siteSearchInput" name="q" class="form-control me-2" placeholder="Search...">
         <button type="submit" class="btn btn-light" style="background-color: #ebebeb;">
           <i class="bi bi-search search-icon" style="color:#42c3da"></i>
         </button>

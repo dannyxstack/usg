@@ -11,15 +11,38 @@ $(document).ready(function() {
     });
   
     // Form submission (unchanged)
-    $('form').on('submit', function(e) {
-      if (!$(this).hasClass('search-form')) {
-        e.preventDefault();
-        alert('Form submitted! (Demo)');
-      }
-    });
+    // $('form').on('submit', function(e) {
+    //   if (!$(this).hasClass('search-form')) {
+    //     e.preventDefault();
+    //     alert('Form submitted! (Demo)');
+    //   }
+    // });
   
     // Search toggle
     $('.search-icon').on('click', function() {
       $('.search-form').toggle();
     });
+
+    
+    
   });
+
+  function performSiteSearch(event) {
+    event.preventDefault(); // 阻止表单默认提交（防止页面刷新）
+  
+    const query = document.getElementById('siteSearchInput').value.trim();
+  
+    if (query === '') {
+      alert('请输入搜索内容');
+      return;
+    }
+  
+    // 构造 Google 站内搜索 URL
+    const searchUrl = `https://www.google.com/search?q=site:mysite.com ${encodeURIComponent(query)}`;
+  
+    // 在新标签页打开
+    window.open(searchUrl, '_blank');
+  
+    // 可选：清空输入框
+    document.getElementById('siteSearchInput').value = '';
+  }
