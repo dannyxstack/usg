@@ -144,6 +144,13 @@
     width: 100%;
     height: 800px;
   }
+  .section-bg-getintouch {
+    background-image: url('bg-header-getintouch.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 800px;
+  }
   .section-bg-course {
     background-image: url('bg-header-course-detail.png');
     background-size: cover; /* 覆盖整个区域 */
@@ -178,6 +185,9 @@
   }
   .color-white {
     color: white;
+  }
+  .color-yellow {
+    color: #fed66f;
   }
   .bg-darkblue {
     background-color: #4059a8;
@@ -587,4 +597,46 @@
   background-color: #f9f9f9;
   color: black;
   width: 70%;
+}
+.course-rpl-img {
+  border-radius: 30px;
+  width: 100%;
+  object-fit: cover;
+}
+.course-rpl-box {
+  border-radius: 0 25px 25px 0;
+}
+
+.contact-card {
+  border: 1px solid #ddd;
+}
+.contact-card-img1 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(15% 12% 15% 12%);
+  transform: scale(1.5);
+}
+.contact-card-img2 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(15% 12% 15% 12%);
+  transform: scale(1.5) rotate(-6deg);
+}
+.contact-card-img3 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(16% 12% 14% 12%);
+  transform: scale(1.5) translate(0, -10px);
+}
+.contact-card-btn {
+  border-radius: 25px;
+  min-width: 180px;
+}
+.contact-form-box {
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+  border: 1px solid #aaa;
+}
+.contact-input {
+  background-color: #e9f8fa;
+  border: 0;
 }
