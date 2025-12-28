@@ -64,7 +64,7 @@
     border: none;
     padding: 20px;
     border-radius: 20px;
-    height: 600px;
+    height: 700px;
   }
   .benefits-card-img {
     border-radius: 50%;
@@ -417,6 +417,7 @@
 .partner-logo-img {
   max-height: 100px;
   object-fit: contain;
+  margin: 0 13px;
 }
 
 
