@@ -32,13 +32,6 @@
   }
 
 
-  /* navbar hover dropdown */
-  @media (min-width: 992px) { /* Adjust breakpoint as needed (e.g., 576px for 'sm', 768px for 'md', 992px for 'lg') */
-    .navbar .dropdown:hover .dropdown-menu {
-      display: block;
-      margin-top: 0; /* Removes a slight vertical shift */
-    }
-  }
   
   .dropdown-item {
     color: #4059a8;
@@ -47,7 +40,39 @@
     font-size: larger;
   }
 
-  
+  /* Bootstrap Navbar 三级菜单 + hover 打开 */
+  /* 一级 hover 展开 */
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  /* 二级 hover 展开三级菜单 */
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    /* margin-left: 0.1rem; */
+    display: none;
+  }
+
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+
+  /* 防止鼠标滑动闪烁 */
+  .dropdown-menu {
+    transition: opacity 0.15s ease;
+  }
+  @media (max-width: 991px) {
+    .navbar .dropdown:hover > .dropdown-menu {
+      display: none;
+    }
+  }
+
   /* Sections */
   .hero {
     background-color: var(--primary-blue);

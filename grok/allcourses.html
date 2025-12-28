@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses - Unity Skills Group</title>
+
+    <!--shared head-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+ <body>
+
+  <!-- top navbar -->
+  <div class="top-bar">
+    <div class="container d-flex justify-content-end align-items-center">
+      <form class="search-form d-inline-flex" action="https://www.google.com/search" method="get">
+        <input type="text" name="q" class="form-control me-2" placeholder="Search...">
+        <button type="submit" class="btn btn-light" style="background-color: #ebebeb;">
+          <i class="bi bi-search search-icon" style="color:#42c3da"></i>
+        </button>
+      </form>
+      <button class="btn btn-apply me-2">APPLY NOW </button>
+    </div>
+  </div>
+  
+  <!-- navbar 1 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="index.html">Unity Skills Group</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+  
+          <!-- 一级菜单：Courses（带三级子菜单） -->
+          <li class="nav-item dropdown dropdown-mega">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <!-- 二级菜单：Marketing & Business -->
+              <li class="dropend marketing-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Marketing & Business</a>
+                <ul class="dropdown-menu submenu">
+                  <li><a class="dropdown-item" href="course-detail.html">BSB50120 Diploma of Business</a></li>
+                  <li><a class="dropdown-item" href="course-detail.html">BSB80120 Graduate Diploma of Management</a></li>
+                  <li><a class="dropdown-item" href="course-detail.html">All Marketing Courses</a></li>
+                </ul>
+              </li>
+  
+              <!-- 二级菜单：Automotive -->
+              <li class="dropend automotive-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Automotive</a>
+                <ul class="dropdown-menu submenu">
+                  <li><a class="dropdown-item" href="course-detail.html">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a></li>
+                  <li><a class="dropdown-item" href="course-detail.html">AUR40216 Certificate IV in Automotive Mechanical Diagnosis</a></li>
+                </ul>
+              </li>
+  
+              <!-- 二级菜单：Hospitality -->
+              <li class="dropend hospitality-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Hospitality</a>
+                <ul class="dropdown-menu submenu">
+                  <li><a class="dropdown-item" href="#">SIT30622 Certificate III in Hospitality</a></li>
+                  <li><a class="dropdown-item" href="#">SIT40422 Certificate IV in Hospitality</a></li>
+                </ul>
+              </li>
+  
+              <!-- 二级菜单：Health & Education（重点三级示例） -->
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Health & Education</a>
+                <ul class="dropdown-menu submenu">
+                  <li><a class="dropdown-item" href="#">CHC33021 Certificate III in Individual Support</a></li>
+                  <li><a class="dropdown-item" href="#">CHC43121 Certificate IV in Disability Support</a></li>
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#">Ageing & Community</a>
+                    <ul class="dropdown-menu submenu">
+                      <li><a class="dropdown-item" href="#">CHC43015 Certificate IV in Ageing Support</a></li>
+                      <li><a class="dropdown-item" href="#">CHC52021 Diploma of Community Services</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+  
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-primary fw-bold" href="courses.html">View All Courses →</a></li>
+            </ul>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#">Student Information Hub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education Agents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main content -->
+
+  <section class="text-start section-bg-course">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+
+          <h1 class="color-darkblue" style="margin-top: 100px;">
+            ALL COURSES <br>
+            At <span class="color-lightblue">Unity Skills Group</span>
+          </h1>
+          <div class="text-start fs-4">
+            <!-- <a href="#" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start now</a> -->
+            <p>Explore our comprehensive range of nationally-recognized qualifications designed to equip you with industry-relevant skills for today's competitive job market.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/courses-banner1.png" alt="Courses Banner" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- <img src="https://placehold.co/600x400" alt="Illustration" class="img-fluid"> -->
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-darkblue pt-5 fs-1">Aged Care & Comunity Services</h2>
+            <p class="fs-4">Gain the essential skills and nationally-recognized qualifications to provide meaningful support in aged care and community services, where every day makes a difference in someone's life.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/agedcare2.png" alt="Support illustration" class="img-fluid course-pathway-img">
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">CHC33021</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Individual Support</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">CHC43015</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Ageing Support</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">CHC52021</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Community Services</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row>">
+          <p></p>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-lightblue">
+    <div class="">
+      <div class="container  py-5 color-white">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="pt-5 fs-1">Early Childhood Education</h2>
+            <p class="fs-4">Shape young minds and build foundational futures with our early childhood education courses, where you'll learn to nurture, educate, and inspire the next generation in their most formative years.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/earlychildhood1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <p> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">CHC30121</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Early Childhood Education and Care</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">CHC50121</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Early Childhood Education and Care</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row>">
+          <p></p>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-darkblue">
+    <div class="">
+      <div class="container py-5 color-white">
+        <div class="row py-5">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-white pt-5 fs-1">Marketing and Communication</h2>
+            <p class="fs-4">Master the art of digital storytelling and strategic communication with our marketing courses, designed to equip you with cutting-edge skills for today's dynamic business landscape.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/marketing1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB40820</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Marketing and Communication</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB50620</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Marketing and Communication</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB60520</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Marketing and Communication</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-lightblue">
+    <div class="">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-darkblue pt-5 fs-1">Business and Management</h2>
+            <p class="fs-4">Develop leadership excellence and strategic vision through our business and management programs, preparing you to drive organizational success in competitive Australian markets.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/business1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB50420</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Leadership and Management</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB60420</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Leadership and Management</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">BSB80120</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Graduate Diploma of Management (Learning)</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-darkblue pt-5 fs-1">Automotive</h2>
+            <p class="fs-4">Accelerate your career in Australia's automotive industry with hands-on training in modern vehicle technology, diagnostics, and repair techniques.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/auto2.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <p> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">AUR30620</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Light Vehicle Mechanical Technology</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">AUR40216</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Automotive Mechanical Diagnosis</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-lightblue">
+    <div class="">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-darkblue pt-5 fs-1">Cookery and Hospitality</h2>
+            <p class="fs-4">Culinary arts meet professional excellence in our cookery and hospitality courses, where you'll master both kitchen craftsmanship and customer service for global career opportunities.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/cookery1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <p> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">SIT30821</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Commercial Cookery</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">SIT40521</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Kitchen Management</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue">SIT50422</h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Hospitality</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-darkblue">
+    <div class="">
+      <div class="container py-5 color-white">
+        <div class="row">
+          <div class="col-md-5 pt-5">
+            <h2 class="color-white pt-5 fs-1">English Courses</h2>
+            <p class="fs-4">Build confidence and fluency with our English language programs, specifically designed to help international students achieve academic success and professional communication skills in Australia.</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/english1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <p> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2">
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue"></h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">General English(GE) Elementary to Upper Intermediate</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pe-0">
+            <div class="card course-pathway-card ps-1 py-2" >
+              <div class="card-body">
+                <h5 class="card-title fs-4 color-lightblue"></h5>
+                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">English for Academic Purposes(EAP) Intermediate to Advanced</h6>
+                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer class="footer section-bg-footer">
+    <div class="container">
+      <div class="row footer-start-here">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <p class="fs-3">Join 5,000+ successful graduates who transformed their future with USG. 
+            Let's begin your journey together - our team is here to guide you every step of the way.</p>
+          
+          <a href="#" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
+        </div>
+      </div>
+      <div class="row footer-logo-row">
+        <div class="col-md-3">
+          
+          <a href="index.html" class="navbar-brand">
+            <img src="logo-white.png" alt="Unity Skills Group Logo" height="80">
+          </a>
+        </div>
+        <div class="col-md-9">
+        </div>
+      </div>
+      <div class="row footer-nav-row mt-3">
+        <div class="col-md-3">
+          <h5 class="mb-4 fs-4">Follow Us</h5>
+          <div class="d-flex gap-3">
+              <a href="#" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
+          </div>
+          <!-- <p>Follow us</p>
+          <p>Email</p>
+          <p>Phone</p>
+          <p>address</p> -->
+        </div>
+        <div class="col-md-3">
+          <h5 class="fs-4">Navigation</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">Home</li>
+            <li class="mb-2">Why Us</li>
+            <li class="mb-2">Our Campus</li>
+            <li class="mb-2">Education Agents</li>
+            <li class="mb-2">Contact Us</li>
+            <li class="mb-2">Policies</li>
+            <li class="mb-2">Apply Now</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fs-4">Programs</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="color-white">All Courses</a></li>
+            <li class="mb-2"><a href="#" class="color-white">Certificate III in Individual Support</a></li>
+            <li class="mb-2"><a href="#" class="color-white">Certificate IV in Disability Support</a></li>
+            <li class="mb-2"><a href="#" class="color-white">Certificate IV in Ageing Support</a></li>
+            <li class="mb-2"><a href="#" class="color-white">Diploma of Community Services</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 px-5">
+          <h5 class="fs-4">Get In Touch</h5>
+          <p><i class="fas fa-envelope me-2"></i> info@unityskills.edu.au</p>
+          <p><i class="fas fa-phone me-2"></i> +61 3 1234 5678</p>
+          <p><i class="fas fa-map-marker-alt me-2"></i> Level 3, 123 Lonsdale Street, Melbourne</p>
+          <p>JOIN OUR COMMUNITY</p>
+          <form>
+            <input type="email" class="form-control" placeholder="Email*">
+            <button type="submit" class="btn btn-info mt-2 color-white fs-4">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-row text-center py-5">
+      <p class="mb-0">&copy; 2025 United Skills Group. All rights reserved.</p>
+    </div>
+  </footer>
+
+ </body>
+</html>
+
