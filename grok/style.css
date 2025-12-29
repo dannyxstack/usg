@@ -8,7 +8,19 @@
   }
   
 
-   */
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
   /* Navbar */
   .navbar {
     background-color: var(--white);
@@ -642,6 +654,7 @@
 
 .contact-card {
   border: 1px solid #ddd;
+  min-height: 430px;
 }
 .contact-card-img1 {
   width: 200px;
@@ -673,3 +686,4 @@
   background-color: #e9f8fa;
   border: 0;
 }
+
