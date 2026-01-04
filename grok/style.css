@@ -687,3 +687,6 @@ body {
   border: 0;
 }
 
+.college-carousel-item {
+  height: 500px;
+}
