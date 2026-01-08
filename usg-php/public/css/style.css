@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/poppins-regular.woff2') format('woff2');
+  src: url('/fonts/poppins-regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -159,7 +159,7 @@ body {
   }
 
   .section-bg-whyus {
-    background-image: url('bg-header-whyus.png');
+    background-image: url('/images/bg-header-whyus.png');
     background-size: cover; /* 覆盖整个区域 */
     background-position: center; /* 居中显示 */
     width: 100%;
@@ -167,7 +167,7 @@ body {
   }
 
   .section-bg-home {
-    background-image: url('bg-header-start.png');
+    background-image: url('/images/bg-header-start.png');
     background-size: cover; /* 覆盖整个区域 */
     background-position: center; /* 居中显示 */
     width: 100%;
@@ -175,28 +175,28 @@ body {
   }
 
   .section-bg-campus {
-    background-image: url('bg-header-campus.png');
+    background-image: url('/images/bg-header-campus.png');
     background-size: cover; /* 覆盖整个区域 */
     background-position: center; /* 居中显示 */
     width: 100%;
     height: 800px;
   }
   .section-bg-getintouch {
-    background-image: url('bg-header-getintouch.png');
+    background-image: url('/images/bg-header-getintouch.png');
     background-size: cover; /* 覆盖整个区域 */
     background-position: center; /* 居中显示 */
     width: 100%;
     height: 800px;
   }
   .section-bg-course {
-    background-image: url('bg-header-course-detail.png');
+    background-image: url('/images/bg-header-course-detail.png');
     background-size: cover; /* 覆盖整个区域 */
     background-position: center; /* 居中显示 */
     width: 100%;
     height: 800px;
   }
   .section-bg-course-pathway {
-    background-image: url('images/course-detail2.png');
+    background-image: url('/images/course-detail2.png');
     background-size: 75%; /* 覆盖整个区域 */
     background-position-x: center; /* 居中显示 */
     background-position-y: 20px;
@@ -205,7 +205,7 @@ body {
     min-height: 800px;
   }
   .section-bg-course-structure {
-    background-image: url('images/course-detail3.png');
+    background-image: url('/images/course-detail3.png');
     /* background-size: cover;*/
     background-position-x: center; /* 居中显示 */
     /* background-position-y: 20px; */
@@ -399,7 +399,7 @@ body {
 
 /* footer background image */
 .section-bg-footer {
-  background-image: url('bg-footer.png');
+  background-image: url('/images/bg-footer.png');
   background-size: cover; /* 覆盖整个区域 */
   background-position: center; /* 居中显示 */
   width: 100%;

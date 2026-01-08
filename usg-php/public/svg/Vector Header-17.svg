@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Layer_" data-name="&amp;lt;Layer&amp;gt;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1394.53 1556.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a4284;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 35.23px;
+      }
+    </style>
+  </defs>
+  <g id="institute">
+    <g id="Group_7" data-name="Group 7">
+      <g id="Group_8" data-name="Group 8">
+        <path id="Vector_18" data-name="Vector 18" class="cls-1" d="M1248.61,882.65h-121.43v117.44h121.43v-117.44Z"/>
+        <path id="Vector_19" data-name="Vector 19" class="cls-1" d="M1248.61,1122.82h-121.43v117.44h121.43v-117.44Z"/>
+      </g>
+      <g id="Group_9" data-name="Group 9">
+        <path id="Vector_20" data-name="Vector 20" class="cls-1" d="M329.35,882.65h-121.43v117.44h121.43v-117.44Z"/>
+        <path id="Vector_21" data-name="Vector 21" class="cls-1" d="M329.35,1122.82h-121.43v117.44h121.43v-117.44Z"/>
+      </g>
+      <path id="Vector_22" data-name="Vector 22" class="cls-1" d="M859.79,1103.96h-263.05v258.7h263.05v-258.7Z"/>
+      <g id="Group_10" data-name="Group 10">
+        <g id="Group_11" data-name="Group 11">
+          <path id="Vector_23" data-name="Vector 23" class="cls-1" d="M1005.76,350.75H450.78v1011.93h554.98V350.75Z"/>
+          <path id="Vector_24" data-name="Vector 24" class="cls-1" d="M410.73,350.75h635.07"/>
+          <path id="Vector_25" data-name="Vector 25" class="cls-1" d="M1248.61,750.99h-242.85v611.68h242.85v-611.68Z"/>
+          <path id="Vector_26" data-name="Vector 26" class="cls-1" d="M450.78,750.99h-242.85v611.68h242.85v-611.68Z"/>
+        </g>
+        <path id="Vector_27" data-name="Vector 27" class="cls-1" d="M164.07,1362.67h1128.41"/>
+      </g>
+      <path id="Vector_28" data-name="Vector 28" class="cls-1" d="M563.39,1103.96h329.75"/>
+      <g id="Group_12" data-name="Group 12">
+        <path id="Vector_29" data-name="Vector 29" class="cls-1" d="M674.72,789.06h-111.33v176.9h111.33v-176.9Z"/>
+        <path id="Vector_30" data-name="Vector 30" class="cls-1" d="M893.15,789.06h-111.33v176.9h111.33v-176.9Z"/>
+      </g>
+      <path id="Vector_31" data-name="Vector 31" class="cls-1" d="M728.27,1246.77v109.55"/>
+      <path id="Vector_32" data-name="Vector 32" class="cls-1" d="M728.27,702.46c69.93,0,126.65-56.7,126.65-126.64s-56.72-126.63-126.65-126.63-126.65,56.7-126.65,126.63,56.72,126.64,126.65,126.64Z"/>
+      <path id="Vector_33" data-name="Vector 33" class="cls-1" d="M728.27,544.05v31.77l16.97,16.98"/>
+    </g>
+  </g>
+</svg>
