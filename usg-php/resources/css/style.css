@@ -1,0 +1,692 @@
+/* Colors */
+:root {
+    --primary-blue: #007bff;
+    --light-blue: #e0f7fa;
+    --dark-blue: #003366;
+    --white: #fff;
+    --gray: #f8f9fa;
+  }
+  
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+  /* Navbar */
+  .navbar {
+    background-color: var(--white);
+    --bs-navbar-padding-y: 0 !important; /* Reduce vertical padding */
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: var(--dark-blue);
+    padding-top: 3px;
+    padding-bottom: 0;
+  }
+
+  .nav-link {
+    color: #4059a8;
+    font-size: larger;
+    /* padding-left: 10px; */
+  }
+
+  .nav-item {
+    padding-left: 15px;
+  }
+
+
+  
+  .dropdown-item {
+    color: #4059a8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+  }
+
+  /* Bootstrap Navbar 三级菜单 + hover 打开 */
+  /* 一级 hover 展开 */
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  /* 二级 hover 展开三级菜单 */
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    /* margin-left: 0.1rem; */
+    display: none;
+  }
+
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+
+  /* 防止鼠标滑动闪烁 */
+  .dropdown-menu {
+    transition: opacity 0.15s ease;
+  }
+  @media (max-width: 991px) {
+    .navbar .dropdown:hover > .dropdown-menu {
+      display: none;
+    }
+  }
+
+  /* Sections */
+  .hero {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 100px 0;
+  }
+  .hero h1 {
+    margin-top: 180px;
+    text-align: left;
+  }
+
+  .benefits-card {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    height: 700px;
+  }
+  .benefits-card-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  .benefits-card-title {
+    height: 100px;
+  }
+  .footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 50px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 50px 0;
+    }
+  }
+
+  /* Colors (unchanged) */
+:root {
+    --primary-blue: #007bff;
+    --light-blue: #e0f7fa;
+    --dark-blue: #003366;
+    --white: #fff;
+    --gray: #f8f9fa;
+  }
+  
+  /* Improved Waves with SVG (asymmetric lift on left) */
+
+  
+  /* Top Bar */
+  .top-bar {
+    background-color: #ebebeb;
+    padding: 10px 0;
+  }
+  .top-bar .btn-apply {
+    background-color: #0dcaf0; /* Greenish from prototype */
+    color: var(--white);
+  }
+  .search-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  .search-form {
+    display: none;
+    margin-left: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .section-bg-whyus {
+    background-image: url('bg-header-whyus.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 800px;
+  }
+
+  .section-bg-home {
+    background-image: url('bg-header-start.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 900px;
+  }
+
+  .section-bg-campus {
+    background-image: url('bg-header-campus.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 800px;
+  }
+  .section-bg-getintouch {
+    background-image: url('bg-header-getintouch.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 800px;
+  }
+  .section-bg-course {
+    background-image: url('bg-header-course-detail.png');
+    background-size: cover; /* 覆盖整个区域 */
+    background-position: center; /* 居中显示 */
+    width: 100%;
+    height: 800px;
+  }
+  .section-bg-course-pathway {
+    background-image: url('images/course-detail2.png');
+    background-size: 75%; /* 覆盖整个区域 */
+    background-position-x: center; /* 居中显示 */
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+  }
+  .section-bg-course-structure {
+    background-image: url('images/course-detail3.png');
+    /* background-size: cover;*/
+    background-position-x: center; /* 居中显示 */
+    /* background-position-y: 20px; */
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+  }
+
+  .color-darkblue {
+    color: #4059a8;
+  }
+  .color-lightblue {
+    color: #0dcaf0;
+  }
+  .color-white {
+    color: white;
+  }
+  .color-yellow {
+    color: #fed66f;
+  }
+  .bg-darkblue {
+    background-color: #4059a8;
+  }
+  .bg-lightpurple {
+    background-color: #e7e7fb;
+  }
+
+  /** svg colors **/
+
+  .svg-inverted-filter {
+    filter: invert(100%); /* 反转所有颜色 */
+  }
+
+  .svg-inverted-brightness {
+    filter: invert(100%) brightness(2); /* 反转并增加亮度 */
+  }
+
+
+  .svg-white-stroke path,
+  .svg-white-stroke circle,
+  .svg-white-stroke rect,
+  .svg-white-stroke line,
+  .svg-white-stroke polyline,
+  .svg-white-stroke polygon {
+    fill: none !important;
+    stroke: white !important;
+    /* stroke-width: 2 !important; */
+  }
+  .svg-white-fill path {
+    fill: white !important;
+    stroke: none !important;
+  }
+    /* 亮蓝色 ok */
+    .img-light-blue {
+    filter: 
+        brightness(0) 
+        saturate(100%) 
+        invert(60%) 
+        sepia(80%) 
+        saturate(1000%) 
+        hue-rotate(180deg) 
+        /* hue-rotate(44c2d9)  */
+        brightness(110%) 
+        contrast(100%);
+    }
+
+  /* grok 替换svg线条颜色为#44c2d9 */
+  .svg-color-lightblue {
+    filter: brightness(0) saturate(100%) invert(52%) sepia(87%) saturate(824%) hue-rotate(158deg) brightness(96%) contrast(92%);
+  }
+  
+  .bg-white-left-bottom {
+    background-color: white;
+    border-bottom-left-radius: 250px;
+  }
+  .bg-grey-right-bottom {
+    background-color: #f1f1f1;
+    border-bottom-right-radius: 160px;
+  }
+  .bg-grey-color {
+    background-color: #f1f1f1;
+  }
+  .bg-white-color {
+    background-color: white;
+  }
+  .bg-lightblue-campus {
+    background-color: #42c3da;
+  }
+  .bg-lightblue-left-bottom {
+    background-color: white;
+    border-bottom-left-radius: 160px;
+  }
+  /* Home bg */
+  .bg-darkblue-round-right-bottom {
+    background-color: #3f58a7;
+    border-bottom-right-radius: 160px;
+  }
+  .bg-lightblue {
+    background-color: #42c3da;
+  }
+  .bg-lightblue-round-left-bottom {
+    background-color: #42c3da;
+    border-bottom-left-radius: 160px;
+  }
+  .bg-white-round-left-bottom {
+    background-color: white;
+    border-bottom-left-radius: 240px;
+  }
+  .bg-white-round-right-bottom {
+    background-color: white;
+    border-bottom-right-radius: 160px;
+  }
+
+
+/* grok 自定义轮播指示器 - 胶囊形背景 + 颜色匹配原型 */
+.custom-carousel-indicators {
+  height: 30px;
+  position: relative;
+  bottom: auto;
+  left: auto;
+  justify-content: center;
+  /* padding: 8px 20px; */
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
+  background-color: rgba(240, 244, 248, 0.9); /* 浅灰背景，带轻微透明 */
+  border-radius: 50px; /* 胶囊形圆角 */
+  backdrop-filter: blur(4px); /* 可选：轻微毛玻璃效果 */
+  gap: 12px; /* 圆点间距 */
+}
+
+/* 未激活圆点 */
+.custom-carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  background-color: #a8dadc; /* 浅蓝绿（匹配原型） */
+  border-radius: 50%;
+  opacity: 1;
+  margin: 0; /* 移除默认 margin */
+  transition: all 0.3s ease;
+}
+
+/* 激活圆点 */
+.custom-carousel-indicators .active {
+  background-color: #2b6777; /* 深蓝（匹配原型中的深色点） */
+  transform: scale(1.2); /* 稍微放大一点，更突出 */
+}
+
+.custom-carousel-bg-white {
+  background-color: rgba(255, 255, 255, 0.9); /* 白色背景，带轻微透明 */
+}
+.custom-carousel-bg-gray {
+  background-color: #f1f1f1;
+}
+
+.carousel-inner img {
+  border-radius: 15px; /* Rounded images */
+}
+
+
+/* campus pictures */
+/* 固定高度容器中的图片填满并居中裁剪 */
+.img-cover-container {
+  position: relative;
+  height: 500px;                  /* 固定高度 */
+  overflow: hidden;               /* 超出部分隐藏（裁剪） */
+  border-radius: 12px;            /* 可选：圆角，与原型一致 */
+  background-color: #f0f0f0;     /* 可选：加载时底色，避免白屏 */
+}
+
+.img-cover-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;              /* 核心：填满容器，居中裁剪，不变形 */
+  object-position: center;        /* 居中显示主体内容 */
+  transition: transform 0.4s ease; /* 可选：鼠标悬停放大效果 */
+}
+
+.img-cover-container:hover img {
+  transform: scale(1.05);         /* 可选：轻微放大交互 */
+}
+
+.carousel-img-item {
+  border-radius: 12px;
+  height: 600px;
+}
+
+/* footer background image */
+.section-bg-footer {
+  background-image: url('bg-footer.png');
+  background-size: cover; /* 覆盖整个区域 */
+  background-position: center; /* 居中显示 */
+  width: 100%;
+  height: 1400px;
+  overflow: hidden;
+}
+
+.footer-start-here {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: black;
+}
+.footer-start-here-btn {
+  border-radius: 25px;
+}
+
+.footer-logo-row {
+  margin-top: 300px;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+}
+.footer-nav-row {
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+}
+.footer-nav-row a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav-row a:hover {
+  text-decoration: underline;
+}
+.copyright-row {
+  margin-top: 100px;
+}
+
+.campus-img {
+  border-radius: 60px;
+}
+
+.campus-location-img {
+  border-radius: 30px;
+}
+
+.home-excellent-img {
+  position: relative;
+  height: 180px;
+  max-height: 300px;
+}
+.home-excellent-img img {
+  width: auto;
+  height: 95%;
+  object-fit: contain;
+}
+.home-excellent-num {
+  font-size: 80px;
+}
+
+.partner-logo-img {
+  max-height: 100px;
+  object-fit: contain;
+  margin: 0 13px;
+}
+
+
+/* 课程详情页专用样式 */
+.course-hero {
+  background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%);
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-hero .wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.info-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.unit-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.unit-table .core th {
+  background-color: #007bff;
+}
+
+.unit-table .elective th {
+  background-color: #28a745;
+}
+
+.pathway-btn {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 10px 10px 0;
+}
+
+.rpl-box {
+  background: #e3f9fc;
+  border-left: 5px solid #44c2d9;
+  border-radius: 8px;
+}
+
+.start-now-btn {
+  background: #007bff;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: bold;
+}
+
+.course-review-card {
+  background-color: #f8f8f8;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;;
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.course-detail-card {
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.course-requirement-box {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
+  /* max-width: 80%;
+  width: 80%; */
+}
+
+.course-requirement-note {
+  background-color: #e7e7fb;
+}
+
+/* 灰色背景层容器（应用到你的 section） */
+.course-requirement-gray-bg {
+  position: relative;              /* 关键：建立定位上下文 */
+  background-color: #ffffff;       /* section 本身白色背景 */
+  overflow: hidden;                /* 可选：防止圆角溢出 */
+  
+}
+
+/* 固定灰色背景层 */
+.course-requirement-gray-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;                   /* 固定高度 800px */
+  background-color: #f1f1f1;       /* 灰色背景，可调整为 #e9ecef 等 */
+  border-bottom-left-radius: 160px;  /* 左下角大圆角扬起（调整数值控制扬起程度） */
+  /* 如果想更“扬起”一点（非标准圆角），可以用下面 SVG 波浪替代 */
+  z-index: 0;                      /* 放在内容下方 */
+}
+
+/* 确保内容文字在背景之上，不受影响 */
+.course-requirement-gray-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.course-pathway-img {
+  border-radius: 20px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.course-pathway-btn {
+  border-radius: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.course-pathway-card {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  /* padding: 20px; */
+}
+.course-pathway-card-body {
+  height: 130px;
+}
+
+.course-emp-pathway {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  width: 600px;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.course-str-label {
+  border-radius: 25px;
+  display: block;
+  width: 240px;
+  padding-left: 20px;
+}
+.course-code1 {
+  padding-left: 30px;
+  border-radius: 25px 0 0 25px;
+  background-color: white;
+  color: black;
+}
+.course-code2 {
+  /* padding-left: 20px; */
+  border-radius: 0 25px 25px 0;
+  background-color: white;
+  color: black;
+}
+.course-code3 {
+  padding-left: 30px;
+  border-radius: 25px 0 0 25px;
+  background-color: #f9f9f9;
+  color: black;
+}
+.course-code4 {
+  /* padding-left: 20px; */
+  border-radius: 0 25px 25px 0;
+  background-color: #f9f9f9;
+  color: black;
+  width: 70%;
+}
+.course-rpl-img {
+  border-radius: 30px;
+  width: 100%;
+  object-fit: cover;
+}
+.course-rpl-box {
+  border-radius: 0 25px 25px 0;
+}
+
+.contact-card {
+  border: 1px solid #ddd;
+  min-height: 430px;
+}
+.contact-card-img1 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(15% 12% 15% 12%);
+  transform: scale(1.5);
+}
+.contact-card-img2 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(15% 12% 15% 12%);
+  transform: scale(1.5) rotate(-6deg);
+}
+.contact-card-img3 {
+  width: 200px;
+  height: 200px;
+  clip-path: inset(16% 12% 14% 12%);
+  transform: scale(1.5) translate(0, -10px);
+}
+.contact-card-btn {
+  border-radius: 25px;
+  min-width: 180px;
+}
+.contact-form-box {
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+  border: 1px solid #aaa;
+}
+.contact-input {
+  background-color: #e9f8fa;
+  border: 0;
+}
+
+.college-carousel-item {
+  height: 500px;
+}
