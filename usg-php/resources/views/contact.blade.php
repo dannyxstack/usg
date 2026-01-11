@@ -8,6 +8,24 @@
   <!-- top navbar -->
   @include('layouts.topbar')
 
+  <!-- alert line -->
+  @if(session('success'))
+      <div class="alert alert-success alert-dismissible fade show">
+          {{ session('success') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+  @endif
+  
+  @if($errors->any())
+      <div class="alert alert-danger">
+          <ul class="mb-0">
+              @foreach($errors->all() as $error)
+                  <li>{{ $error }}</li>
+              @endforeach
+          </ul>
+      </div>
+  @endif
+
   <!-- main content -->
 
   <section class="hero text-center section-bg-getintouch">
@@ -39,13 +57,14 @@
         </div>
         <div class="col-md-7">
           <div class=" rounded-5 px-3 fs-4 contact-form-box">
-            <form class="p-4 bg-lightgrey">
+            <form class="p-4 bg-lightgrey" action="{{ route('contact.submit') }}" method="POST">
+              @csrf
               <div class="mb-3">
-                <label for="name" class="form-label">First Name</label>
+                <label for="firstname" class="form-label">First Name</label>
                 <input type="text" class="form-control contact-input" id="name" name="firstname" placeholder="Your First Name">
               </div>
               <div class="mb-3">
-                <label for="name" class="form-label">Last Name*</label>
+                <label for="lastname" class="form-label">Last Name*</label>
                 <input type="text" class="form-control contact-input" id="name" name="lastname" placeholder="Your Last Name">
               </div>
               <div class="mb-3">
@@ -53,8 +72,8 @@
                 <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Your Email">
               </div>
               <div class="mb-3">
-                <label for="phone" class="form-label">Mobile Phone Number*</label>
-                <input type="text" class="form-control contact-input" id="phone" name="phone" placeholder="Your Phone Number">
+                <label for="mobile" class="form-label">Mobile Phone Number*</label>
+                <input type="text" class="form-control contact-input" id="mobile" name="mobile" placeholder="Your Phone Number">
               </div>
               <div class="mb-3">
                 <label for="nationality" class="form-label">Nationality*</label>
@@ -62,8 +81,8 @@
               </div>
               <div class="mb-3">
                 <label for="enquerytype" class="form-label">Enquiry Type*</label>
-                <select class="form-select contact-input" id="enquerytype" name="enquerytype">
-                  <option selected>Select Enquiry Type</option>
+                <select class="form-select contact-input" id="enquiry_type" name="enquiry_type">
+                  <option value="" selected>Select Enquiry Type</option>
                   <option value="courseinfo">Course Information</option>
                   <option value="admission">Admission Process</option>
                   <option value="visa">Visa Assistance</option>
@@ -72,8 +91,8 @@
                 </select>
               </div>
               <div class="mb-3">
-                <label for="phone" class="form-label">How Can We Help?*</label>
-                <textarea class="form-control contact-input" id="help" name="help" rows="4" placeholder="Your Message"></textarea>
+                <label for="message" class="form-label">How Can We Help?*</label>
+                <textarea class="form-control contact-input" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
               </div>
               <div class=" d-flex justify-content-end">
                 <button type="submit" class="btn btn-primary bg-darkblue color-white fs-3 rounded-3" style="width: 140px;">Submit</button>
@@ -143,7 +162,7 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/location1.png" alt="Penfold College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
+            <img src="/images/location1.png" alt="Penfold College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
           </div>
           <div class="col-md-6 mt-3 ps-5">
             <p class="color-lightblue fs-4 mb-0">Location</p>
@@ -165,6 +184,30 @@
  <!-- footer -->
  @include('layouts.footer')
 
+ @push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 表单提交前的字符数验证
+    const messageTextarea = document.getElementById('message');
+    const charCount = document.createElement('div');
+    charCount.className = 'form-text text-end mt-1';
+    charCount.textContent = '当前字符数: 0';
+    messageTextarea.parentNode.appendChild(charCount);
+    
+    messageTextarea.addEventListener('input', function() {
+        charCount.textContent = '当前字符数: ' + this.value.length;
+        
+        if (this.value.length < 10) {
+            charCount.style.color = '#dc3545';
+        } else if (this.value.length > 2000) {
+            charCount.style.color = '#dc3545';
+        } else {
+            charCount.style.color = '#6c757d';
+        }
+    });
+});
+</script>
+@endpush
  </body>
 </html>
 

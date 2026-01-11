@@ -11,10 +11,15 @@ class Course extends Model {
 
     protected $fillable = [
         'name', 
+        'code',
         'cricos_code', 
+        'class',
         'status',
         'aqf_level',
         'entry_requirements',
+        'entry_req_desc',
+        'entry_req_items',
+        'entry_req_notes',
         'total_core_units',
         'total_electives_units',
         'mode_of_delivery',

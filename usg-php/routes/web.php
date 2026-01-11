@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('home', ['title' => 'Home']);
@@ -28,6 +29,20 @@ Route::get('/course/chc33021', function () {
     return view('course-detail-chc33021');
 });
 
-Route::get('/contact', function () {
-    return view('contact', ['title' => 'Contact Us']);
+// Route::get('/contact', function () {
+//     return view('contact', ['title' => 'Contact Us']);
+// });
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+
+Route::get('/debug-csrf', function() {
+    return response()->json([
+        'csrf_token' => csrf_token(),
+        'session_id' => session()->getId(),
+        'session_driver' => config('session.driver'),
+        'session_status' => session()->isStarted() ? 'started' : 'not started',
+        'cookie_domain' => config('session.domain'),
+        'app_url' => config('app.url'),
+    ]);
 });
+
