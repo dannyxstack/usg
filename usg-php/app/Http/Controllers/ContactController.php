@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Course;
 use App\Http\Requests\ContactFormRequest;
 use App\Models\ContactMessage;
 use App\Mail\ContactNotification;
@@ -35,8 +34,8 @@ class ContactController extends Controller {
             ]);
 
             // 发送邮件通知管理员
-            Mail::to('uxff@hotmail.com')
-                ->send(mailable: new ContactNotification($message));
+            // Mail::to('uxff@hotmail.com')
+            //     ->send(mailable: new ContactNotification($message));
 
             return redirect()->route('contact')
                 ->with('success', '感谢您的咨询！我们已经收到您的消息，会尽快回复您。');
