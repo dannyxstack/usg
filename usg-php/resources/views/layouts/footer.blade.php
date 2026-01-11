@@ -37,11 +37,11 @@
         <div class="col-md-3">
           <h5 class="fs-4">Navigation</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="index.html">Home</a></li>
-            <li class="mb-2"><a href="whyus.html">Why Us</a></li>
-            <li class="mb-2"><a href="campus.html">Our Campus</a></li>
-            <li class="mb-2"><a href="agentlist.html">Education Agents</a></li>
-            <li class="mb-2"><a href="contact.html">Contact Us</a></li>
+            <li class="mb-2"><a href="index">Home</a></li>
+            <li class="mb-2"><a href="whyus">Why Us</a></li>
+            <li class="mb-2"><a href="campus">Our Campus</a></li>
+            <li class="mb-2"><a href="agentlist">Education Agents</a></li>
+            <li class="mb-2"><a href="contact">Contact Us</a></li>
             <!-- <li class="mb-2"><a href="policies.html">Policies</a></li> -->
             <!-- <li class="mb-2"><a href="https://form.jotform.com/252581213016043">Apply Now</a></li> -->
           </ul>
@@ -49,11 +49,11 @@
         <div class="col-md-3">
           <h5 class="fs-4">Programs</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="allcourses.html" class="color-white">All Courses</a></li>
-            <li class="mb-2"><a href="course-detail.html" class="color-white">Certificate III in Individual Support</a></li>
-            <li class="mb-2"><a href="course-detail.html" class="color-white">Certificate IV in Disability Support</a></li>
-            <li class="mb-2"><a href="course-detail.html" class="color-white">Certificate IV in Ageing Support</a></li>
-            <li class="mb-2"><a href="course-detail.html" class="color-white">Diploma of Community Services</a></li>
+            <li class="mb-2"><a href="allcourses" class="color-white">All Courses</a></li>
+            <li class="mb-2"><a href="course-detail" class="color-white">Certificate III in Individual Support</a></li>
+            <li class="mb-2"><a href="course-detail" class="color-white">Certificate IV in Disability Support</a></li>
+            <li class="mb-2"><a href="course-detail" class="color-white">Certificate IV in Ageing Support</a></li>
+            <li class="mb-2"><a href="course-detail" class="color-white">Diploma of Community Services</a></li>
           </ul>
         </div>
         <div class="col-md-3 px-5">

@@ -22,13 +22,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="whyus.html">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="whyus">Why Us</a></li>
           <li class="nav-item dropdown">
             <!-- 1-2 layer -->
             <a class="nav-link dropdown-toggle" href="#" >Courses</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="allcourses.html">All Courses</a></li>
+              <li><a class="dropdown-item" href="allcourses">All Courses</a></li>
 
               <li><hr class="dropdown-divider"></li>
 
@@ -36,9 +36,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Aged Care and Community Services</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">CHC33021 Certificate III in Individual Support</a>
-                    <a class="dropdown-item" href="course-detail.html">CHC43015 Certificate IV in Ageing Support</a>
-                    <a class="dropdown-item" href="course-detail.html">CHC52021 Diploma of Community Services</a>
+                    <a class="dropdown-item" href="/course/CHC33021">CHC33021 Certificate III in Individual Support</a>
+                    <a class="dropdown-item" href="/course/CHC43015">CHC43015 Certificate IV in Ageing Support</a>
+                    <a class="dropdown-item" href="/course/CHC52021">CHC52021 Diploma of Community Services</a>
                   </li>
                 </ul>
               </li>
@@ -47,8 +47,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Early Childhood Education</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">CHC30121 Certificate III in Early Childhood Education and Care</a>
-                    <a class="dropdown-item" href="course-detail.html">CHC50121 Diploma of Early Childhood Education and Care</a>
+                    <a class="dropdown-item" href="/course/CHC30121">CHC30121 Certificate III in Early Childhood Education and Care</a>
+                    <a class="dropdown-item" href="/course/CHC50121">CHC50121 Diploma of Early Childhood Education and Care</a>
                   </li>
                 </ul>
               </li>
@@ -57,9 +57,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Marketing and Communication</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">BSB40820 Certificate IV in Marketing and Communication</a>
-                    <a class="dropdown-item" href="course-detail.html">BSB50620 Diploma of Marketing and Communication</a>
-                    <a class="dropdown-item" href="course-detail.html">BSB60520 Advanced Diploma of Marketing and Communication</a>
+                    <a class="dropdown-item" href="/course/BSB40820">BSB40820 Certificate IV in Marketing and Communication</a>
+                    <a class="dropdown-item" href="/course/BSB50620">BSB50620 Diploma of Marketing and Communication</a>
+                    <a class="dropdown-item" href="/course/BSB60520">BSB60520 Advanced Diploma of Marketing and Communication</a>
                   </li>
                 </ul>
               </li>
@@ -68,9 +68,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Business and Management</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">BSB50420 Diploma of Leadership and Management</a>
-                    <a class="dropdown-item" href="course-detail.html">BSB60420 Advanced Diploma of Leadership and Management</a>
-                    <a class="dropdown-item" href="course-detail.html">BSB80120 Graduate Diploma of Management (Learning)</a>
+                    <a class="dropdown-item" href="/course/BSB50420">BSB50420 Diploma of Leadership and Management</a>
+                    <a class="dropdown-item" href="/course/BSB60420">BSB60420 Advanced Diploma of Leadership and Management</a>
+                    <a class="dropdown-item" href="/course/BSB80120">BSB80120 Graduate Diploma of Management (Learning)</a>
                   </li>
                 </ul>
               </li>
@@ -79,8 +79,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Automotive</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a>
-                    <a class="dropdown-item" href="course-detail.html">AUR40216 Certificate IV in Automotive Mechanical Diagnosis</a>
+                    <a class="dropdown-item" href="/course/AUR30620">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a>
+                    <a class="dropdown-item" href="/course/AUR40216">AUR40216 Certificate IV in Automotive Mechanical Diagnosis</a>
                   </li>
                 </ul>
               </li>
@@ -89,9 +89,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Cookery and Hospitality</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">SIT30821 Certificate III in Commercial Cookery</a>
-                    <a class="dropdown-item" href="course-detail.html">SIT40521 Certificate IV in Kitchen Management</a>
-                    <a class="dropdown-item" href="course-detail.html">SIT50422 Diploma of Hospitality</a>
+                    <a class="dropdown-item" href="/course/SIT30821">SIT30821 Certificate III in Commercial Cookery</a>
+                    <a class="dropdown-item" href="/course/SIT40521">SIT40521 Certificate IV in Kitchen Management</a>
+                    <a class="dropdown-item" href="/course/SIT50422">SIT50422 Diploma of Hospitality</a>
                   </li>
                 </ul>
               </li>
@@ -102,8 +102,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >English Courses</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="course-detail.html">General English(GE) Elementary to Upper Intermediate</a>
-                    <a class="dropdown-item" href="course-detail.html">English for Academic Purposes(EAP) Intermediate to Advanced</a>
+                    <a class="dropdown-item" href="/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
+                    <a class="dropdown-item" href="/course/english-for-academic-purposes">English for Academic Purposes(EAP) Intermediate to Advanced</a>
                   </li>
                 </ul>
               </li>
@@ -111,7 +111,7 @@
             </ul>
   
           </li>
-          <li class="nav-item"><a class="nav-link" href="campus.html">Colleges</a></li>
+          <li class="nav-item"><a class="nav-link" href="campus">Colleges</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education Agents</a>
             <ul class="dropdown-menu">
