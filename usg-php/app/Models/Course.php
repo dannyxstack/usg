@@ -1,0 +1,35 @@
+<?php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Course extends Model {
+    use HasFactory;
+
+    protected $table = 'courses_grok';
+
+    protected $fillable = [
+        'name', 
+        'cricos_code', 
+        'status',
+        'aqf_level',
+        'entry_requirements',
+        'total_core_units',
+        'total_electives_units',
+        'mode_of_delivery',
+        'placement',
+        'location',
+        'duration',
+        'course_fees',
+        'pathways',
+        'employment_pathways',
+        'course_structure', // json
+        'assessment_mothodology',
+        'reference_textbooks',
+        'course_progress_policy',
+        'rpl_ct',
+        'further_information', //
+     ];
+
+}
