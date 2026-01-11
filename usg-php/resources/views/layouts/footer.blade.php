@@ -13,7 +13,7 @@
       <div class="row footer-logo-row">
         <div class="col-md-3">
           
-          <a href="index.html" class="navbar-brand">
+          <a href="/index" class="navbar-brand">
             <img src="/images/logo-white.png" alt="Unity Skills Group Logo" height="80">
           </a>
         </div>
