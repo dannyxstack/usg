@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/courses-banner1.png" alt="Courses Banner" class="img-fluid">
+          <img src="/images/courses-banner1.png" alt="Courses Banner" class="img-fluid">
         </div>
       </div>
 
@@ -42,7 +42,7 @@
             <p class="fs-4">Gain the essential skills and nationally-recognized qualifications to provide meaningful support in aged care and community services, where every day makes a difference in someone's life.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/agedcare2.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/agedcare2.png" alt="Support illustration" class="img-fluid course-pathway-img">
           </div>
         </div>
         <div class="row my-5">
@@ -51,7 +51,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">CHC33021</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Individual Support</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/CHC33021" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">CHC43015</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Ageing Support</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/CHC43015" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">CHC52021</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Community Services</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/CHC52021" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <p class="fs-4">Shape young minds and build foundational futures with our early childhood education courses, where you'll learn to nurture, educate, and inspire the next generation in their most formative years.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/earlychildhood1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/earlychildhood1.png" alt="Support illustration" class="img-fluid course-pathway-img">
             <p> </p>
           </div>
         </div>
@@ -101,7 +101,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">CHC30121</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Early Childhood Education and Care</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/CHC30121" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">CHC50121</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Early Childhood Education and Care</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/CHC50121" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
             <p class="fs-4">Master the art of digital storytelling and strategic communication with our marketing courses, designed to equip you with cutting-edge skills for today's dynamic business landscape.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/marketing1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/marketing1.png" alt="Support illustration" class="img-fluid course-pathway-img">
           </div>
         </div>
         <div class="row">
@@ -141,7 +141,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB40820</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Marketing and Communication</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB40820" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB50620</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Marketing and Communication</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB50620" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB60520</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Marketing and Communication</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB60520" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@
             <p class="fs-4">Develop leadership excellence and strategic vision through our business and management programs, preparing you to drive organizational success in competitive Australian markets.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/business1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/business1.png" alt="Support illustration" class="img-fluid course-pathway-img">
             <p></p>
           </div>
         </div>
@@ -188,7 +188,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB50420</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Leadership and Management</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB50420" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB60420</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Leadership and Management</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB60420" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">BSB80120</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Graduate Diploma of Management (Learning)</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/BSB80120" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@
             <p class="fs-4">Accelerate your career in Australia's automotive industry with hands-on training in modern vehicle technology, diagnostics, and repair techniques.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/auto2.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/auto2.png" alt="Support illustration" class="img-fluid course-pathway-img">
             <p> </p>
           </div>
         </div>
@@ -235,7 +235,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">AUR30620</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Light Vehicle Mechanical Technology</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/AUR30620" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">AUR40216</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Automotive Mechanical Diagnosis</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/AUR40216" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@
             <p class="fs-4">Culinary arts meet professional excellence in our cookery and hospitality courses, where you'll master both kitchen craftsmanship and customer service for global career opportunities.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/cookery1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/cookery1.png" alt="Support illustration" class="img-fluid course-pathway-img">
             <p> </p>
           </div>
         </div>
@@ -273,7 +273,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">SIT30821</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Commercial Cookery</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/SIT30821" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">SIT40521</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Kitchen Management</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/SIT40521" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -291,7 +291,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue">SIT50422</h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Hospitality</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/SIT50422" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -310,7 +310,7 @@
             <p class="fs-4">Build confidence and fluency with our English language programs, specifically designed to help international students achieve academic success and professional communication skills in Australia.</p>
           </div>
           <div class="col-md-7">
-            <img src="images/english1.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/english1.png" alt="Support illustration" class="img-fluid course-pathway-img">
             <p> </p>
           </div>
         </div>
@@ -320,7 +320,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue"></h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">General English(GE) Elementary to Upper Intermediate</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/general-english" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>
@@ -329,7 +329,7 @@
               <div class="card-body">
                 <h5 class="card-title fs-4 color-lightblue"></h5>
                 <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">English for Academic Purposes(EAP) Intermediate to Advanced</h6>
-                <a href="course-detail.html" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
+                <a href="/course/english-for-academic-purposes" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
               </div>
             </div>
           </div>

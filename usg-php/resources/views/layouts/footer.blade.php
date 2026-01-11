@@ -7,7 +7,7 @@
           <p class="fs-3">Join 5,000+ successful graduates who transformed their future with USG. 
             Let's begin your journey together - our team is here to guide you every step of the way.</p>
           
-          <a href="allcourses.html" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
+          <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
         </div>
       </div>
       <div class="row footer-logo-row">
@@ -37,11 +37,11 @@
         <div class="col-md-3">
           <h5 class="fs-4">Navigation</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="index">Home</a></li>
-            <li class="mb-2"><a href="whyus">Why Us</a></li>
-            <li class="mb-2"><a href="campus">Our Campus</a></li>
-            <li class="mb-2"><a href="agentlist">Education Agents</a></li>
-            <li class="mb-2"><a href="contact">Contact Us</a></li>
+            <li class="mb-2"><a href="/index">Home</a></li>
+            <li class="mb-2"><a href="/whyus">Why Us</a></li>
+            <li class="mb-2"><a href="/campus">Our Campus</a></li>
+            <li class="mb-2"><a href="/agentlist">Education Agents</a></li>
+            <li class="mb-2"><a href="/contact">Contact Us</a></li>
             <!-- <li class="mb-2"><a href="policies.html">Policies</a></li> -->
             <!-- <li class="mb-2"><a href="https://form.jotform.com/252581213016043">Apply Now</a></li> -->
           </ul>
@@ -49,11 +49,11 @@
         <div class="col-md-3">
           <h5 class="fs-4">Programs</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="allcourses" class="color-white">All Courses</a></li>
-            <li class="mb-2"><a href="course-detail" class="color-white">Certificate III in Individual Support</a></li>
-            <li class="mb-2"><a href="course-detail" class="color-white">Certificate IV in Disability Support</a></li>
-            <li class="mb-2"><a href="course-detail" class="color-white">Certificate IV in Ageing Support</a></li>
-            <li class="mb-2"><a href="course-detail" class="color-white">Diploma of Community Services</a></li>
+            <li class="mb-2"><a href="/allcourses" class="color-white">All Courses</a></li>
+            <li class="mb-2"><a href="/course/CHC33021" class="color-white">Certificate III in Individual Support</a></li>
+            <li class="mb-2"><a href="/course/CHC43015" class="color-white">Certificate IV in Ageing Support</a></li>
+            <li class="mb-2"><a href="/course/SIT30821" class="color-white">Certificate III in Commercial Cookery</a></li>
+            <li class="mb-2"><a href="/course/CHC52021" class="color-white">Diploma of Community Services</a></li>
           </ul>
         </div>
         <div class="col-md-3 px-5">

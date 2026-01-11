@@ -8,7 +8,11 @@ class CourseController extends Controller {
 
     public function index() {
         $courses = Course::all();
-        return view('allcourses', compact('courses'));
+        $title = 'All Courses';
+        return view('allcourses', compact(
+            'courses',
+            'title'
+        ));
     }
 
     /**
@@ -34,11 +38,13 @@ class CourseController extends Controller {
         if (!is_array($course->course_fees)) {
             $course->course_fees = json_decode($course->course_fees, true);
         }
-        foreach ($course->course_structure as $unit) {
-            if (strtolower($unit['type']) === 'core') {
-                $coreUnits[] = $unit;
-            } elseif (strtolower($unit['type']) === 'elective') {
-                $electiveUnits[] = $unit;
+        if (!empty($course->course_structure)) {
+            foreach ($course->course_structure as $unit) {
+                if (strtolower($unit['type']) === 'core') {
+                    $coreUnits[] = $unit;
+                } elseif (strtolower($unit['type']) === 'elective') {
+                    $electiveUnits[] = $unit;
+                }
             }
         }
 

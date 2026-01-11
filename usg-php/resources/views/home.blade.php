@@ -17,7 +17,7 @@
         CAN <span class="color-lightblue">ACHIEVE</span>
       </h1>
       <div class="text-start">
-        <a href="allcourses.html" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start now</a>
+        <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start now</a>
       </div>
 
       <!-- <img src="https://placehold.co/600x400" alt="Illustration" class="img-fluid"> -->
@@ -123,7 +123,7 @@
                   <div class="carousel-img-item bg-white">
 
                     <div class="img-cover-container">
-                      <img src="images/earlychildhood2.png" class="">
+                      <img src="/images/earlychildhood2.png" class="">
                     </div>
                     <div class="fs-2 color-darkblue ps-5">
                       Early Childhood Education
@@ -158,7 +158,7 @@
                   <div class="carousel-img-item bg-white">
 
                     <div class="img-cover-container">
-                      <img src="images/earlychildhood2.png" class="">
+                      <img src="/images/earlychildhood2.png" class="">
                     </div>
                     <div class="fs-2 color-darkblue ps-5">
                       Early Childhood Education
@@ -202,28 +202,28 @@
       <div class="row text-center">
         <div class="col-md-3">
           <div class="home-excellent-img">
-            <img src="images/exce1.png">
+            <img src="/images/exce1.png">
           </div>
           <h2 class="color-white home-excellent-num">10+</h2>
           <p class="fs-4">Years of Excellence</p>
         </div>
         <div class="col-md-3">
           <div class="home-excellent-img">
-            <img src="images/exce2.png">
+            <img src="/images/exce2.png">
           </div>
           <h2 class="color-white home-excellent-num">2+</h3>
           <p class="fs-4">Campus</p>
         </div>
         <div class="col-md-3">
             <div class="home-excellent-img">
-              <img src="images/exce3.png">
+              <img src="/images/exce3.png">
             </div>
             <h2 class="color-white home-excellent-num">5000+</h3>
             <p class="fs-4">Graduates</p>
         </div>
         <div class="col-md-3">
           <div class="home-excellent-img">
-            <img src="images/exce4.png">
+            <img src="/images/exce4.png">
           </div>
           <h2 class="color-white home-excellent-num">50+</h3>
           <p class="fs-4">Industry Partners</p>
@@ -262,36 +262,17 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex1.png" class="">
+                      <img src="/images/campus-ex1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex2.png" class="">
+                      <img src="/images/campus-ex2.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex3.png" class="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row ">
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/classroom1.jpg" class="">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/cookery1.png" class="">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/earlychildhood1.png" class="">
+                      <img src="/images/campus-ex3.png" class="">
                     </div>
                   </div>
                 </div>
@@ -300,17 +281,17 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare1.png" class="">
+                      <img src="/images/classroom1.jpg" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare2.png" class="">
+                      <img src="/images/cookery1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare3.png" class="">
+                      <img src="/images/earlychildhood1.png" class="">
                     </div>
                   </div>
                 </div>
@@ -319,17 +300,36 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto1.png" class="">
+                      <img src="/images/agedcare1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto2.png" class="">
+                      <img src="/images/agedcare2.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto3.png" class="">
+                      <img src="/images/agedcare3.png" class="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto1.png" class="">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto2.png" class="">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto3.png" class="">
                     </div>
                   </div>
                 </div>
@@ -339,12 +339,12 @@
 
                   <div class="col-md-6">
                     <div class="img-cover-container">
-                      <img src="images/business1.png" class="">
+                      <img src="/images/business1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-cover-container">
-                      <img src="images/marketing1.png" class="">
+                      <img src="/images/marketing1.png" class="">
                     </div>
                   </div>
                 </div>
@@ -388,11 +388,11 @@
         <div class="col-md-2"></div>
         
         <div class="col-md-8 text-center pb-5">
-          <img src="images/partner_logo-1.png" class="img-fluid partner-logo-img" alt="Partner Companies">
-          <img src="images/partner_logo-2-2.jpg" class="img-fluid partner-logo-img" alt="Partner Companies">
-          <img src="images/partner_logo-3.jpg" class="img-fluid partner-logo-img" alt="Partner Companies">
-          <img src="images/partner_logo-4.png" class="img-fluid partner-logo-img" alt="Partner Companies">
-          <img src="images/partner_logo-5.png" class="img-fluid partner-logo-img" alt="Partner Companies">
+          <img src="/images/partner_logo-1.png" class="img-fluid partner-logo-img" alt="Partner Companies">
+          <img src="/images/partner_logo-2-2.jpg" class="img-fluid partner-logo-img" alt="Partner Companies">
+          <img src="/images/partner_logo-3.jpg" class="img-fluid partner-logo-img" alt="Partner Companies">
+          <img src="/images/partner_logo-4.png" class="img-fluid partner-logo-img" alt="Partner Companies">
+          <img src="/images/partner_logo-5.png" class="img-fluid partner-logo-img" alt="Partner Companies">
         </div>
         <div class="col-md-2"></div>
       </div>

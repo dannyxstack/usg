@@ -22,13 +22,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="whyus">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/whyus">Why Us</a></li>
           <li class="nav-item dropdown">
             <!-- 1-2 layer -->
             <a class="nav-link dropdown-toggle" href="#" >Courses</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="allcourses">All Courses</a></li>
+              <li><a class="dropdown-item" href="/allcourses">All Courses</a></li>
 
               <li><hr class="dropdown-divider"></li>
 
@@ -111,16 +111,16 @@
             </ul>
   
           </li>
-          <li class="nav-item"><a class="nav-link" href="campus">Colleges</a></li>
+          <li class="nav-item"><a class="nav-link" href="/campus">Colleges</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education Agents</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="agentlist.html">Agents</a></li>
+              <li><a class="dropdown-item" href="/agentlist">Agents</a></li>
               <li><a class="dropdown-item" href="https://penfold.edu.au/wp-content/uploads/2023/02/Education-Agents-Application-Form-Penfold-College.pdf">Become an Agent</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="allcourses.html">Apply Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/allcourses">Apply Now</a></li>
         </ul>
       </div>
     </div>

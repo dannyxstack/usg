@@ -113,7 +113,7 @@
                   {!! nl2br(e($course->entry_req_items)) !!}
                 </div>
               </div>
-              <div class="px-5 py-2" style="background-color: #e7e7fb;">
+              <div class="px-5 py-2" style="background-color: #e7e7fb; @if (empty($course->entry_req_notes)) display: none; @endif" >
                 <div class="px-5">
 
                   <p class="color-darkblue fs-3"><svg viewBox="0 0 57.5 70.3599" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.500000" height="70.359863" fill="none" customFrame="#000000">
@@ -135,7 +135,7 @@
       </div>
   </section>
 
-  <section class="bg-darkblue">
+  <section class="bg-darkblue" @if (empty($course->pathways)) style="display: none;" @endif>
     <div class="bg-white-round-left-bottom">
 
       <div class="container">
@@ -179,7 +179,7 @@
     </div>
   </section>
 
-  <section class="section-bg-course-structure py-5">
+  <section class="section-bg-course-structure py-5" @if (empty($course->course_structure)) style="display: none;" @endif>
 
     <div class="container py-5">
       <div class="row mb-5">
@@ -256,6 +256,7 @@
         <div class="row">
           <!-- <div class="col-md-1"></div> -->
           <div class="col-md-7">
+            <p class="py-2"> </p>
             <h2 class="fs-1 color-darkblue">Facilities and Resources</h2>
             <div class="fs-5">
               <p class="">Your classes will be conducted in modern classrooms and you will be able to access Wi-Fi. There are also areas for you to relax, as well as conduct additional study.</p>

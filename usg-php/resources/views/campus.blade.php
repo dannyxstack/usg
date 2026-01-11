@@ -33,13 +33,13 @@
             <!-- 轮播图片 -->
             <div class="carousel-inner">
               <div class="carousel-item college-carousel-item active">
-                <img src="images/campus-ex1.png" class="d-block w-100 campus-img">
+                <img src="/images/campus-ex1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/campus-ex2.png" class="d-block w-100 campus-img" alt="Campus 2">
+                <img src="/images/campus-ex2.png" class="d-block w-100 campus-img" alt="Campus 2">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/campus-ex3.png" class="d-block w-100 campus-img">
+                <img src="/images/campus-ex3.png" class="d-block w-100 campus-img">
               </div>
             </div>
     
@@ -66,19 +66,19 @@
             <!-- 轮播图片 -->
             <div class="carousel-inner">
               <div class="carousel-item college-carousel-item active">
-                <img src="images/earlychildhood1.png" class="d-block w-100 campus-img">
+                <img src="/images/earlychildhood1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/agedcare1.png" class="d-block w-100 campus-img">
+                <img src="/images/agedcare1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/marketing1.png" class="d-block w-100 campus-img">
+                <img src="/images/marketing1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/auto1.png" class="d-block w-100 campus-img">
+                <img src="/images/auto1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/english1.png" class="d-block w-100 campus-img">
+                <img src="/images/english1.png" class="d-block w-100 campus-img">
               </div>
             </div>
     
@@ -122,13 +122,13 @@
             <!-- 轮播图片 -->
             <div class="carousel-inner">
               <div class="carousel-item college-carousel-item active">
-                <img src="images/cookery1.png" class="d-block w-100 campus-img">
+                <img src="/images/cookery1.png" class="d-block w-100 campus-img">
               </div>
               <div class="carousel-item">
-                <img src="images/business1.png college-carousel-item" class="d-block w-100 campus-img" alt="Campus 2">
+                <img src="/images/business1.png" class="d-block w-100 campus-img" alt="Campus 2">
               </div>
               <div class="carousel-item college-carousel-item">
-                <img src="images/hospitality1.png" class="d-block w-100 campus-img">
+                <img src="/images/hospitality1.png" class="d-block w-100 campus-img">
               </div>
             </div>
     
@@ -160,7 +160,7 @@
             <p class="color-white fs-5">123 Lonsdale Street is conveniently located in Melbourne's most sought after education precinct within close proximity to all forms of public transport. </p>
           </div>
           <div class="col-md-6">
-            <img src="images/location1.png" alt="Penfold College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
+            <img src="/images/location1.png" alt="Penfold College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
           </div>
         </div>
       </div>

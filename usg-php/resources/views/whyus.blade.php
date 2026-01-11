@@ -38,19 +38,19 @@
         <!-- 轮播图片 -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <!-- <img src="images/campus1.jpg" class="d-block w-100 rounded"> -->
+            <!-- <img src="/images/campus1.jpg" class="d-block w-100 rounded"> -->
           </div>
           <div class="carousel-item">
-            <!-- <img src="images/campus2.jpg" class="d-block w-100 rounded" alt="Campus 2"> -->
+            <!-- <img src="/images/campus2.jpg" class="d-block w-100 rounded" alt="Campus 2"> -->
           </div>
           <div class="carousel-item">
-            <!-- <img src="images/campus3.jpg" class="d-block w-100 rounded" alt="Campus 3"> -->
+            <!-- <img src="/images/campus3.jpg" class="d-block w-100 rounded" alt="Campus 3"> -->
           </div>
           <div class="carousel-item">
-            <!-- <img src="images/campus4.jpg" class="d-block w-100 rounded" alt="Campus 4"> -->
+            <!-- <img src="/images/campus4.jpg" class="d-block w-100 rounded" alt="Campus 4"> -->
           </div>
           <div class="carousel-item">
-            <!-- <img src="images/campus5.jpg" class="d-block w-100 rounded" alt="Campus 5"> -->
+            <!-- <img src="/images/campus5.jpg" class="d-block w-100 rounded" alt="Campus 5"> -->
           </div>
         </div>
 
@@ -341,36 +341,17 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex1.png" class="">
+                      <img src="/images/campus-ex1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex2.png" class="">
+                      <img src="/images/campus-ex2.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/campus-ex3.png" class="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row ">
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/classroom1.jpg" class="">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/cookery1.png" class="">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="img-cover-container">
-                      <img src="images/earlychildhood1.png" class="">
+                      <img src="/images/campus-ex3.png" class="">
                     </div>
                   </div>
                 </div>
@@ -379,17 +360,17 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare1.png" class="">
+                      <img src="/images/classroom1.jpg" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare2.png" class="">
+                      <img src="/images/cookery1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/agedcare3.png" class="">
+                      <img src="/images/earlychildhood1.png" class="">
                     </div>
                   </div>
                 </div>
@@ -398,17 +379,36 @@
                 <div class="row ">
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto1.png" class="">
+                      <img src="/images/agedcare1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto2.png" class="">
+                      <img src="/images/agedcare2.png" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="images/auto3.png" class="">
+                      <img src="/images/agedcare3.png" class="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto1.png" class="">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto2.png" class="">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-cover-container">
+                      <img src="/images/auto3.png" class="">
                     </div>
                   </div>
                 </div>
@@ -418,12 +418,12 @@
 
                   <div class="col-md-6">
                     <div class="img-cover-container">
-                      <img src="images/business1.png" class="">
+                      <img src="/images/business1.png" class="">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-cover-container">
-                      <img src="images/marketing1.png" class="">
+                      <img src="/images/marketing1.png" class="">
                     </div>
                   </div>
                 </div>
