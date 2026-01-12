@@ -11,11 +11,11 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        $middleware->web(append: [
-            \Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
+        // $middleware->web(append: [
+            // \Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
             // \Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class, // 这个是个操蛋的类，不生效
-        ]);
-        $middleware->validateCsrfTokens();
+        // ]);
+        // $middleware->validateCsrfTokens();
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

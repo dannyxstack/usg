@@ -16,7 +16,7 @@
         <div style="margin-top: 20px;">
             <strong>咨询内容：</strong>
             <div style="background-color: white; padding: 15px; margin-top: 10px; border-left: 4px solid #007bff;">
-                {!! nl2br(e($message)) !!}
+                {!! nl2br(e($content)) !!}
             </div>
         </div>
     </div>

@@ -6,6 +6,12 @@ use App\Http\Requests\ContactFormRequest;
 use App\Models\ContactMessage;
 use App\Mail\ContactNotification;
 use Illuminate\Support\Facades\Mail;
+use Resend;
+use Illuminate\Support\Facades\Artisan;
+use Mailtrap\Helper\ResponseHelper;
+use Mailtrap\MailtrapClient;
+use Mailtrap\Mime\MailtrapEmail;
+use Symfony\Component\Mime\Address;
 
 class ContactController extends Controller {
 
@@ -34,18 +40,42 @@ class ContactController extends Controller {
             ]);
 
             // 发送邮件通知管理员
-            // Mail::to('uxff@hotmail.com')
-            //     ->send(mailable: new ContactNotification($message));
+            Mail::to('hello1@yopmail.com')
+                ->send(mailable: new ContactNotification($message));
+        //     $resend = Resend::client(env('RESEND_KEY') ?? 're_3JFBzipF_CMZe6ghnt1w3TMQXtQFgEoDE');
 
-            return redirect()->route('contact')
-                ->with('success', '感谢您的咨询！我们已经收到您的消息，会尽快回复您。');
+        //     $resend->emails->send( [  'from' => 'Acme <onboarding@resend.dev>',
+        //     'to' => ['delivered@resend.dev'],
+        //     'subject' => 'hello world',
+        //     // 'html' => '<strong>it works!</strong>',
+        //     'html' =>  (new ContactNotification($message))->render(),
+        //   ]);
+
+        // Artisan::command('send-mail', function () {
+        //     $email = (new MailtrapEmail())
+        //         ->from(new Address('hello@demomailtrap.co', 'Mailtrap Test'))
+        //         ->to(new Address('dannyxuweb3@gmail.com'))
+        //         ->subject('You are awesome!')
+        //         ->category('Integration Test')
+        //         ->text('Congrats for sending test email with Mailtrap!')
+        //     ;
+        
+        //     $response = MailtrapClient::initSendingEmails(
+        //         apiKey: '<YOUR_API_TOKEN>'
+        //     )->send($email);
+        
+        //     var_dump(ResponseHelper::toArray($response));
+        // })->purpose('Send Mail');
+
+            return redirect()->route('contact.index')
+                ->with('success', 'Thank you for contacting us! We will get back to you shortly.');
 
         } catch (\Exception $e) {
             \Log::error('联系表单提交失败: ' . $e->getMessage());
             
             return back()
                 ->withInput()
-                ->withErrors(['error' => '提交失败，请稍后重试或直接联系管理员。']);
+                ->withErrors(['error' => 'Submission failed, please try again later or contact the administrator directly.']);
         }
     }
 }
