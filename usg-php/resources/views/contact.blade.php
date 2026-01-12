@@ -59,6 +59,7 @@
           <div class=" rounded-5 px-3 fs-4 contact-form-box">
             <form class="p-4 bg-lightgrey" action="{{ route('contact.submit') }}" method="POST">
               @csrf
+               <!-- {{ csrf_field() }} -->
               <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
                 <input type="text" class="form-control contact-input" id="name" name="firstname" placeholder="Your First Name">

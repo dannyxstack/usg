@@ -35,14 +35,48 @@ Route::get('/course/chc33021', function () {
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
+
 Route::get('/debug-csrf', function() {
     return response()->json([
         'csrf_token' => csrf_token(),
         'session_id' => session()->getId(),
-        'session_driver' => config('session.driver'),
         'session_status' => session()->isStarted() ? 'started' : 'not started',
-        'cookie_domain' => config('session.domain'),
+        'session_driver' => config('session.driver'),
+        'session_lifetime' => config('session.lifetime'),
+        'session_domain' => config('session.domain'),
         'app_url' => config('app.url'),
+        'app_env' => config('app.env'),
+        'all_middleware' => array_merge(
+            app('router')->getMiddlewareGroups()['web'] ?? [],
+            app('router')->getMiddlewareGroups()['api'] ?? []
+        ),
+        'has_verify_csrf' => in_array(
+            \Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
+            app('router')->getMiddlewareGroups()['web'] ?? []
+        ),
     ]);
 });
 
+Route::post('/test-csrf', function() {
+    return response()->json(['message' => 'CSRF token is valid!']);
+})->middleware('web');
+
+Route::get('/test-csrf-setup', function() {
+    // 检查中间件是否注册
+    $webMiddleware = app('router')->getMiddlewareGroups()['web'] ?? [];
+    $hasCsrf = in_array(
+        \Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
+        $webMiddleware
+    );
+    
+    return response()->json([
+        'has_csrf_in_web_group' => $hasCsrf,
+        'web_middleware' => $webMiddleware,
+        'csrf_token' => csrf_token(),
+        'session_id' => session()->getId(),
+    ]);
+});
+
+Route::post('/test-csrf-post', function() {
+    return response()->json(['message' => 'CSRF验证成功！']);
+});

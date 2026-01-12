@@ -23,7 +23,7 @@ class ContactFormRequest extends FormRequest
     {
         return [
             'email' => 'required|email|max:255',
-            'message' => 'required|min:10|max:2000',
+            'message' => 'required|min:5|max:2000',
         ];
     }
 
