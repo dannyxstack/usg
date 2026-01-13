@@ -171,7 +171,7 @@
             <!-- <h1 class="color-white py-2" >Student Support Services</h2> -->
             <p class="color-white fs-5">Welcome to our office. Please sign in at the front desk, and we will be happy to assist you. </p>
             <div class="fs-4 color-white mt-4">
-              <p class=""><i class="fas fa-phone me-1 color-lightblue"></i> +61 3 1234 5678</p>
+              <p class=""><i class="fas fa-phone me-1 color-lightblue"></i> +61 3 8637 0343</p>
               <p class=""><i class="fas fa-envelope me-1 color-lightblue"></i> info@unityskills.edu.au</p>
               <p class=""><i class="fas fa-map-marker-alt me-1 color-lightblue"></i> Level 3, 123 Lonsdale Street, Melbourne</p>
             </div>

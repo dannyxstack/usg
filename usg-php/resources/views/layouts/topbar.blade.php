@@ -7,7 +7,7 @@
           <i class="bi bi-search search-icon" style="color:#42c3da"></i>
         </button>
       </form>
-      <button class="btn btn-apply me-2">APPLY NOW </button>
+      <a href="/allcourses" class="btn btn-apply me-2">APPLY NOW </a>
     </div>
   </div>
   
