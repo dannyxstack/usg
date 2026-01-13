@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="row footer-nav-row mt-3">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <h5 class="mb-4 fs-4">Follow Us</h5>
           <div class="d-flex gap-3">
               <a href="https://www.facebook.com/profile.php?id=100078400561598" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
@@ -34,29 +34,20 @@
           <p>Phone</p>
           <p>address</p> -->
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <h5 class="fs-4">Navigation</h5>
           <ul class="list-unstyled">
             <li class="mb-2"><a href="/index">Home</a></li>
             <li class="mb-2"><a href="/whyus">Why Us</a></li>
             <li class="mb-2"><a href="/campus">Our Campus</a></li>
-            <li class="mb-2"><a href="/agentlist">Education Agents</a></li>
+            <li class="mb-2"><a href="/allcourses">All Courses</a></li>
+            <!-- <li class="mb-2"><a href="/agentlist">Education Agents</a></li> -->
             <li class="mb-2"><a href="/contact">Contact Us</a></li>
             <!-- <li class="mb-2"><a href="policies.html">Policies</a></li> -->
             <!-- <li class="mb-2"><a href="https://form.jotform.com/252581213016043">Apply Now</a></li> -->
           </ul>
         </div>
-        <div class="col-md-3">
-          <h5 class="fs-4">Programs</h5>
-          <ul class="list-unstyled">
-            <li class="mb-2"><a href="/allcourses" class="color-white">All Courses</a></li>
-            <li class="mb-2"><a href="/course/CHC33021" class="color-white">Certificate III in Individual Support</a></li>
-            <li class="mb-2"><a href="/course/CHC43015" class="color-white">Certificate IV in Ageing Support</a></li>
-            <li class="mb-2"><a href="/course/SIT30821" class="color-white">Certificate III in Commercial Cookery</a></li>
-            <li class="mb-2"><a href="/course/CHC52021" class="color-white">Diploma of Community Services</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 px-5">
+        <div class="col-md-4">
           <h5 class="fs-4">Get In Touch</h5>
           <p><i class="fas fa-envelope me-2"></i> info@unityskills.edu.au</p>
           <p><i class="fas fa-phone me-2"></i> +61 3 8637 0343</p>
