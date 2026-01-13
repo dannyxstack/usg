@@ -1,4 +1,6 @@
-  <!-- top navbar -->
+
+
+<!-- top navbar -->
   <div class="top-bar">
     <div class="container d-flex justify-content-end align-items-center">
       <form id="siteSearchForm" class="search-form d-inline-flex" action="https://www.google.com/search" onsubmit="performSiteSearch(event)">
@@ -12,7 +14,7 @@
   </div>
   
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="/images/logo-colored.png" alt="Unity Skills Group Logo" height="80">
