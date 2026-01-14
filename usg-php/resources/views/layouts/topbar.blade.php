@@ -1,5 +1,3 @@
-
-
 <!-- top navbar -->
   <div class="top-bar">
     <div class="container d-flex justify-content-end align-items-center">
