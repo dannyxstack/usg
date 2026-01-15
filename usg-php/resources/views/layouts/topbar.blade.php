@@ -26,7 +26,7 @@
           <li class="nav-item"><a class="nav-link" href="/whyus">Why Us</a></li>
           <li class="nav-item dropdown">
             <!-- 1-2 layer -->
-            <a class="nav-link dropdown-toggle" href="#" >Courses</a>
+            <a class="nav-link dropdown-toggle" href="/allcourses" >Courses</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/allcourses">All Courses</a></li>
 
