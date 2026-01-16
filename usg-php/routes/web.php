@@ -21,6 +21,9 @@ Route::get('/whyus', function () {
 Route::get('/whyus.html', function () {
     return view('whyus');
 });
+Route::get('/colleges', function () {
+    return view('colleges', ['title' => 'Colleges'] );
+});
 
 Route::get('/allcourses', [CourseController::class, 'index'])->name('course.index');
 Route::get('/course/{code}', [CourseController::class, 'detail'])->name('course.detail');
