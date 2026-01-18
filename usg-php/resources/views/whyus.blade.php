@@ -464,14 +464,11 @@
     </div>
   </section>
 
-  <section class="py-5 text-center" style="display: none;">
-    <div class="container">
-      <h2>Are you ready?</h2>
-      <p>Phasellus in tortor ut neque tincidunt posuere at eu massa. Mauris 
-        porttitor facilisis lacus in varius. Fusce suscipit nibh ac nibh 
-        vulputate porta. Nulla in auctor ipsum...</p>
-      <a href="#" class="btn btn-primary">Start Here</a>
-      <img src="https://placehold.co/100x100" alt="Rocket" class="img-fluid">
+  <section class="pb-5">
+    <div class="container text-center">
+      <h2 class="color-darkblue text-center">Company Milestones</h2>
+      <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
+      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
     </div>
   </section>
 
