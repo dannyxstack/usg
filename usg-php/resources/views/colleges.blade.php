@@ -191,268 +191,270 @@ body {
 
   <!-- colleges ds -->
   <section class="py-5">
-        <div class="container">
-            <!-- College Cards -->
-            <div class="row g-4 mb-5">
-                <!-- College of Health -->
-                <div class="col-lg-6">
-                    <div class="college-card college-health">
-                        <div class="card-header">
-                          <div class="row">
-                            <div class="col-md-2">
-                              <img src="/images/Icon_US_Health-02.png" height="80">
-                            </div>
-                            <div class="col-md-10">
-                              <h3 class="mb-0">
-                                   Unity Skills College of Health
-                              </h3>
-                              <p class="mb-0 mt-2">Building the healthcare professionals of tomorrow</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card-body p-4">
-                            <p class="card-text">Our College of Health provides comprehensive training in healthcare disciplines, combining theoretical knowledge with practical skills for real-world application.</p>
-                            
-                            <!-- Tabs for Course Categories -->
-                            <ul class="nav nav-tabs" id="healthTabs" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="aged-care-tab" data-bs-toggle="tab" data-bs-target="#aged-care" type="button">Aged Care</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing" type="button">Marketing</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button">Business</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="automotive-tab" data-bs-toggle="tab" data-bs-target="#automotive" type="button">Automotive</button>
-                                </li>
-                            </ul>
-                            
-                            <!-- Tab Content -->
-                            <div class="tab-content pt-4" id="healthTabContent">
-                                <!-- Aged Care Courses -->
-                                <div class="tab-pane fade show active" id="aged-care" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Aged Care Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 092342A</span>
-                                                    <h5>Certificate III in Individual Support</h5>
-                                                    <p class="small text-muted">Specializing in aged care and disability support.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Community Services" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 092342B</span>
-                                                    <h5>Diploma of Community Services</h5>
-                                                    <p class="small text-muted">Develop skills to work in community service organizations.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Marketing Courses -->
-                                <div class="tab-pane fade" id="marketing" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Marketing Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 093452C</span>
-                                                    <h5>Diploma of Marketing and Communication</h5>
-                                                    <p class="small text-muted">Develop strategic marketing and communication skills.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Digital Marketing" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 093452D</span>
-                                                    <h5>Advanced Diploma of Digital Marketing</h5>
-                                                    <p class="small text-muted">Master digital marketing strategies and analytics.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Business Courses -->
-                                <div class="tab-pane fade" id="business" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Business Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 094562E</span>
-                                                    <h5>Diploma of Business</h5>
-                                                    <p class="small text-muted">Gain foundational knowledge in business operations.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Management Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 094562F</span>
-                                                    <h5>Advanced Diploma of Leadership and Management</h5>
-                                                    <p class="small text-muted">Develop leadership skills for managerial roles.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Automotive Courses -->
-                                <div class="tab-pane fade" id="automotive" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Automotive Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 095672G</span>
-                                                    <h5>Certificate III in Light Vehicle Mechanical Technology</h5>
-                                                    <p class="small text-muted">Learn to service and repair light vehicles.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Automotive Electrical" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 095672H</span>
-                                                    <h5>Diploma of Automotive Technology</h5>
-                                                    <p class="small text-muted">Advanced training in automotive systems and diagnostics.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- College of Hospitality -->
-                <div class="col-lg-6">
-                    <div class="college-card college-hospitality">
-                        <div class="card-header">
-                          <div class="row">
-                            <div class="col-md-2">
-                              <img src="/images/Icon_US_Hospitality-02.png" height="80">
-                            </div>
-                            <div class="col-md-10">
-                              <h3 class="mb-0">
-                                  Unity Skills College of Hospitality
-                              </h3>
-                              <p class="mb-0 mt-2">Crafting culinary and hospitality excellence</p>
-                            </div>
-                          </div>
+  <div class="container">
+  <!-- College Cards -->
+  <div class="row g-4 mb-5">
+    <!-- College of Health -->
+    <div class="col-lg-6">
+    <div class="college-card college-health">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="/images/Icon_US_Health-02.png" height="80">
+          </div>
+          <div class="col-md-10">
+            <h3 class="mb-0" id="usc-health">
+                  Unity Skills College of Health
+            </h3>
+            <p class="mb-0 mt-2">Building the healthcare professionals of tomorrow</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-body p-4">
+        <p class="card-text">Our College of Health provides comprehensive training in healthcare disciplines, combining theoretical knowledge with practical skills for real-world application.</p>
+        
+        <!-- Tabs for Course Categories -->
+        <ul class="nav nav-tabs" id="healthTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="aged-care-tab" data-bs-toggle="tab" data-bs-target="#aged-care" type="button">Aged Care</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing" type="button">Marketing</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="childhood-edu-tab" data-bs-toggle="tab" data-bs-target="#childhood-edu" type="button">Early Childhood<br> Education</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button">Business</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="automotive-tab" data-bs-toggle="tab" data-bs-target="#automotive" type="button">Automotive</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="english-tab" data-bs-toggle="tab" data-bs-target="#english-courses" type="button">English Courses</button>
+            </li>
+        </ul>
+        
+        <!-- Tab Content -->
+        <div class="tab-content pt-4" id="healthTabContent">
 
-                        </div>
-                        <div class="card-body p-4">
-                            <p class="card-text">Our College of Hospitality delivers industry-focused training in culinary arts and hospitality management, preparing students for dynamic careers in the global hospitality sector.</p>
-                            
-                            <!-- Tabs for Course Categories -->
-                            <ul class="nav nav-tabs" id="hospitalityTabs" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="cookery-tab" data-bs-toggle="tab" data-bs-target="#cookery" type="button">Cookery</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="hospitality-tab" data-bs-toggle="tab" data-bs-target="#hospitality" type="button">Hospitality</button>
-                                </li>
-                            </ul>
-                            
-                            <!-- Tab Content -->
-                            <div class="tab-content pt-4" id="hospitalityTabContent">
-                                <!-- Cookery Courses -->
-                                <div class="tab-pane fade show active" id="cookery" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cookery Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 096782I</span>
-                                                    <h5>Certificate III in Commercial Cookery</h5>
-                                                    <p class="small text-muted">Learn essential cooking techniques and kitchen operations.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Patisserie Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 096782J</span>
-                                                    <h5>Certificate IV in Patisserie</h5>
-                                                    <p class="small text-muted">Master the art of pastry, cake decoration and dessert creation.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Advanced Cookery" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 096782K</span>
-                                                    <h5>Diploma of Hospitality Management (Commercial Cookery)</h5>
-                                                    <p class="small text-muted">Combine advanced cookery skills with hospitality management.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Hospitality Courses -->
-                                <div class="tab-pane fade" id="hospitality" role="tabpanel">
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hospitality Course" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 097892L</span>
-                                                    <h5>Certificate III in Hospitality</h5>
-                                                    <p class="small text-muted">Learn front office operations, food and beverage service.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="course-card">
-                                                <img src="https://images.unsplash.com/photo-1564501049418-3c27787d01e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Management" class="course-img">
-                                                <div class="p-3">
-                                                    <span class="cricos-code">CRICOS: 097892M</span>
-                                                    <h5>Diploma of Hospitality Management</h5>
-                                                    <p class="small text-muted">Develop skills for management roles in hotels and resorts.</p>
-                                                    <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+          <!-- Aged Care Courses -->
+          <div class="tab-pane fade show active" id="aged-care" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'Aged Care and Community Services')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+          
+          <!-- Marketing Courses -->
+          <div class="tab-pane fade" id="marketing" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'Marketing and Communication')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+
+          <!-- Early Childhood Education -->
+          <div class="tab-pane fade" id="childhood-edu" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'Early Childhood Education')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+          
+          <!-- Business Courses -->
+          <div class="tab-pane fade" id="business" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'Business and Management')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+          
+          <!-- Automotive Courses -->
+          <div class="tab-pane fade" id="automotive" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'Automotive')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+
+          <!-- English Courses -->
+          <div class="tab-pane fade" id="english-courses" role="tabpanel">
+              <div class="row g-4">
+                @foreach ($courses as $courseItem)
+                  @if ($courseItem->class == 'English Courses')
+                  <div class="col-md-6">
+                      <div class="course-card">
+                          <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                          <div class="p-3">
+                              <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                              <h5>{{ $courseItem->name }}</h5>
+                              <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  @endif
+                
+                @endforeach
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- College of Hospitality -->
+<div class="col-lg-6">
+<div class="college-card college-hospitality">
+    <div class="card-header">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="/images/Icon_US_Hospitality-02.png" height="80">
+        </div>
+        <div class="col-md-10">
+          <h3 class="mb-0" id="usc-hospitality">
+              Unity Skills College of Hospitality
+          </h3>
+          <p class="mb-0 mt-2">Crafting culinary and hospitality excellence</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="card-body p-4">
+        <p class="card-text">Our College of Hospitality delivers industry-focused training in culinary arts and hospitality management, preparing students for dynamic careers in the global hospitality sector.</p>
+        
+        <!-- Tabs for Course Categories -->
+        <ul class="nav nav-tabs" id="hospitalityTabs" role="tablist" style="padding-top: 54px;">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="cookery-tab" data-bs-toggle="tab" data-bs-target="#cookery" type="button">Cookery</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="hospitality-tab" data-bs-toggle="tab" data-bs-target="#hospitality" type="button">Hospitality</button>
+            </li>
+        </ul>
+        
+        <!-- Tab Content -->
+        <div class="tab-content pt-4" id="hospitalityTabContent">
+            <!-- Cookery Courses -->
+            <div class="tab-pane fade show active" id="cookery" role="tabpanel">
+                <div class="row g-4">
+                  @foreach ($courses as $courseItem)
+                    @if ($courseItem->class == 'Cookery')
+                    <div class="col-md-6">
+                        <div class="course-card">
+                            <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                            <div class="p-3">
+                                <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                                <h5>{{ $courseItem->name }}</h5>
+                                <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                                <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
                             </div>
                         </div>
                     </div>
+                    @endif
+                  
+                  @endforeach
                 </div>
             </div>
             
+            <!-- Hospitality Courses -->
+            <div class="tab-pane fade" id="hospitality" role="tabpanel">
+                <div class="row g-4">
+                  @foreach ($courses as $courseItem)
+                    @if ($courseItem->class == 'Hospitality')
+                    <div class="col-md-6">
+                        <div class="course-card">
+                            <img src="/images/courses/{{ $courseItem->img }}" alt="{{ $courseItem->name }} Course" class="course-img">
+                            <div class="p-3">
+                                <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
+                                <h5>{{ $courseItem->name }}</h5>
+                                <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
+                                <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
+                  
+                  @endforeach
+                </div>
+              </div>
+          </div>
         </div>
-    </section>
+      </div>
+        
+    </div>
+  </section>
 
   <!-- colleges -->
   <section class="py-5 bg-white" style="display:none;">

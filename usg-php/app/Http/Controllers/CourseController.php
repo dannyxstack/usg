@@ -15,6 +15,15 @@ class CourseController extends Controller {
         ));
     }
 
+    public function colleges() {
+        $courses = Course::all();
+        $title = 'Our Colleges';
+        return view('colleges', compact(
+            'courses',
+            'title'
+        ));
+    }
+
     /**
      * Summary of show detail
      * @param mixed $code
