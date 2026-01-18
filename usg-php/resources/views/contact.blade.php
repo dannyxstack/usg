@@ -57,7 +57,7 @@
         </div>
         <div class="col-md-7">
           <div class=" rounded-5 px-3 fs-4 contact-form-box">
-            <form class="p-4 bg-lightgrey" action="{{ route('contact.submit') }}" method="POST">
+            <form class="p-4 bg-lightgrey" action="/contact" method="POST">
               @csrf
                
               <div class="mb-3">
