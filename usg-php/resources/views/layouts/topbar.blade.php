@@ -29,8 +29,13 @@
             <a class="nav-link dropdown-toggle" href="/allcourses" >Courses</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/allcourses">All Courses</a></li>
-
+              
               <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="/allcourses#usc-health">
+                <img src="/images/logo-us-health-landscape1.png" alt="Unity Skills College of Health Logo" height="40" >
+                <!-- Unity Skills College of Health -->
+              </a></li>
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Aged Care and Community Services</a>
@@ -86,24 +91,29 @@
               </li>
 
               <li class="dropdown-submenu dropend">
-                <a class="dropdown-item dropdown-toggle" href="#" role="button" >Cookery and Hospitality</a>
+                <a class="dropdown-item dropdown-toggle" href="#" role="button" >English Courses</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/SIT30821">SIT30821 Certificate III in Commercial Cookery</a>
-                    <a class="dropdown-item" href="/course/SIT40521">SIT40521 Certificate IV in Kitchen Management</a>
-                    <a class="dropdown-item" href="/course/SIT50422">SIT50422 Diploma of Hospitality</a>
+                    <a class="dropdown-item" href="/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
+                    <a class="dropdown-item" href="/course/english-for-academic-purposes">English for Academic Purposes(EAP) Intermediate to Advanced</a>
                   </li>
                 </ul>
               </li>
 
               <li><hr class="dropdown-divider"></li>
 
+              <li><a class="dropdown-item" href="/allcourses#usc-hospitality">
+                <img src="/images/logo-us-hospitality-landscape1.png" alt="Unity Skills College of Hospitality Logo" height="40">
+                <!-- Unity Skills College of Hospitality -->
+              </a></li>
+
               <li class="dropdown-submenu dropend">
-                <a class="dropdown-item dropdown-toggle" href="#" role="button" >English Courses</a>
+                <a class="dropdown-item dropdown-toggle" href="#" role="button" >Cookery and Hospitality</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
-                    <a class="dropdown-item" href="/course/english-for-academic-purposes">English for Academic Purposes(EAP) Intermediate to Advanced</a>
+                    <a class="dropdown-item" href="/course/SIT30821">SIT30821 Certificate III in Commercial Cookery</a>
+                    <a class="dropdown-item" href="/course/SIT40521">SIT40521 Certificate IV in Kitchen Management</a>
+                    <a class="dropdown-item" href="/course/SIT50422">SIT50422 Diploma of Hospitality</a>
                   </li>
                 </ul>
               </li>
