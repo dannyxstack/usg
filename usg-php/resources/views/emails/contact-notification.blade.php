@@ -10,9 +10,9 @@
     
     <div style="background-color: #f5f5f5; padding: 20px; border-radius: 5px;">
         <p><strong>咨询人邮箱：</strong> {{ $email }}</p>
-        <p><strong>咨询人名：</strong> {{ $firstname ?? '' }}</p>
-        <p><strong>咨询人姓：</strong> {{ $lastname ?? '' }}</p>
-        <p><strong>咨询人国籍：</strong> {{ $nationality ?? '' }}</p>
+        <p><strong>咨询人名：</strong> {{ $firstname ?? '(未填写)' }}</p>
+        <p><strong>咨询人姓：</strong> {{ $lastname ?? '(未填写)' }}</p>
+        <p><strong>咨询人国籍：</strong> {{ $nationality ?? '(未填写)' }}</p>
         <p><strong>提交时间：</strong> {{ $time }}</p>
         <p><strong>IP地址：</strong> {{ $ip }}</p>
         
