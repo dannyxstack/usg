@@ -15,7 +15,6 @@ class ContactNotification extends Mailable
     use Queueable, SerializesModels;
 
     protected ContactMessage $contactMessage;
-    public $content;
 
     /**
      * Create a new message instance.
@@ -64,6 +63,9 @@ class ContactNotification extends Mailable
                 'content' => $this->contactMessage->message,
                 'time' => $this->contactMessage->created_at->format('Y-m-d H:i:s'),
                 'ip' => $this->contactMessage->ip_address,
+                'firstname' => $this->contactMessage->firstname,
+                'lastname' => $this->contactMessage->lastname,
+                'nationality' => $this->contactMessage->nationality,
             ]);
     }
 }

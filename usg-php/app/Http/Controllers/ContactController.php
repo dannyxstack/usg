@@ -39,17 +39,18 @@ class ContactController extends Controller {
                 'nationality' => $request->nationality,
             ]);
 
-            // 发送邮件通知管理员
-            Mail::to('hello1@yopmail.com')
+            // 发送邮件通知管理员 ok
+            Mail::to('danny.xu@uscohealth.edu.au')
                 ->send(mailable: new ContactNotification($message));
-        //     $resend = Resend::client(env('RESEND_KEY') ?? 're_3JFBzipF_CMZe6ghnt1w3TMQXtQFgEoDE');
 
-        //     $resend->emails->send( [  'from' => 'Acme <onboarding@resend.dev>',
-        //     'to' => ['delivered@resend.dev'],
-        //     'subject' => 'hello world',
-        //     // 'html' => '<strong>it works!</strong>',
-        //     'html' =>  (new ContactNotification($message))->render(),
-        //   ]);
+            // $resend = Resend::client(env('RESEND_KEY') ?? 're_3JFBzipF_CMZe6ghnt1w3TMQXtQFgEoDE');
+
+            // $resend->emails->send( [  'from' => 'Acme <onboarding@resend.dev>',
+            //     'to' => ['uxff@hotmail.com'],
+            //     'subject' => 'hello world, this is mail from resend',
+            //     // 'html' => '<strong>it works!</strong>',
+            //     'html' =>  (new ContactNotification($message))->render(),
+            //   ]);
 
         // Artisan::command('send-mail', function () {
         //     $email = (new MailtrapEmail())
