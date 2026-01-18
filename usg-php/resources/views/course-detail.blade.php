@@ -37,7 +37,7 @@
             <div class="color-lightblue fs-4">{{ $course->code ?? '' }}</div>
             <div class="color-darkblue fs-2">Course overview</div>
             <p class="fs-4" >This is {{ $course->name ?? '' }} which enables you to be qualified as a ...</p>
-            <a href="allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
+            <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
           </div>
           <div class="mt-5 px-4 fs-4">
             <h2 class="fs-2 color-darkblue mb-2">Assessment Methodology</h2>
@@ -108,12 +108,12 @@
           <div class="col-md-10">
             <div class="course-requirement-box">
 
-              <div class="px-5 fs-5 mt-2 text-start px-5">
-                <div class="px-5">
+              <div class="px-2 fs-5 mt-2 text-start px-5">
+                <div class="px-2">
                   {!! nl2br(e($course->entry_req_items)) !!}
                 </div>
               </div>
-              <div class="px-5 py-2" style="background-color: #e7e7fb; @if (empty($course->entry_req_notes)) display: none; @endif" >
+              <div class="px-2 py-2" style="background-color: #e7e7fb; @if (empty($course->entry_req_notes)) display: none; @endif" >
                 <div class="px-5">
 
                   <p class="color-darkblue fs-3"><svg viewBox="0 0 57.5 70.3599" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.500000" height="70.359863" fill="none" customFrame="#000000">
