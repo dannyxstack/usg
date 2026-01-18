@@ -70,10 +70,10 @@
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email*</label>
-                <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Your Email">
+                <input type="email" class="form-control contact-input" id="email" name="email" placeholder="Your Email" required>
               </div>
               <div class="mb-3">
-                <label for="mobile" class="form-label">Mobile Phone Number*</label>
+                <label for="mobile" class="form-label">Mobile Phone Number</label>
                 <input type="text" class="form-control contact-input" id="mobile" name="mobile" placeholder="Your Phone Number">
               </div>
               <div class="mb-3">
@@ -86,14 +86,13 @@
                   <option value="" selected>Select Enquiry Type</option>
                   <option value="courseinfo">Course Information</option>
                   <option value="admission">Admission Process</option>
-                  <option value="visa">Visa Assistance</option>
                   <option value="payment">Payment</option>
                   <option value="others">Others</option>
                 </select>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">How Can We Help?*</label>
-                <textarea class="form-control contact-input" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                <textarea class="form-control contact-input" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
               </div>
               <div class=" d-flex justify-content-end">
                 <button type="submit" class="btn btn-primary bg-darkblue color-white fs-3 rounded-3" style="width: 140px;">Submit</button>

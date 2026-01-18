@@ -346,12 +346,12 @@
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="/images/campus-ex2.png" class="">
+                      <img src="/images/melbourne1.jpg" class="">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="img-cover-container">
-                      <img src="/images/campus-ex3.png" class="">
+                      <img src="/images/melbourne2.png" class="">
                     </div>
                   </div>
                 </div>

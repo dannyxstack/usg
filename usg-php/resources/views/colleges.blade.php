@@ -205,6 +205,10 @@ body {
           <div class="col-md-10">
             <h3 class="mb-0">
                   Unity Skills College of Health
+              <a href="://uscohealth.edu.au" target="_blank" class="ms-2 text-white">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+
             </h3>
             <p class="mb-0 mt-2">Building the healthcare professionals of tomorrow</p>
           </div>
@@ -384,7 +388,10 @@ body {
         </div>
         <div class="col-md-10">
           <h3 class="mb-0">
-              Unity Skills College of Hospitality
+              Unity Skills College of Hospitality 
+              <a href="://uscohospitality.edu.au" target="_blank" class=" text-white">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
           </h3>
           <p class="mb-0 mt-2">Crafting culinary and hospitality excellence</p>
         </div>
