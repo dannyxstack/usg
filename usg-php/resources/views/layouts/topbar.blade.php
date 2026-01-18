@@ -32,7 +32,7 @@
               
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="/allcourses#usc-health">
+              <li><a class="dropdown-item" href="/colleges#usc-health">
                 <img src="/images/logo-us-health-landscape1.png" alt="Unity Skills College of Health Logo" height="40" >
                 <!-- Unity Skills College of Health -->
               </a></li>
@@ -102,7 +102,7 @@
 
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="/allcourses#usc-hospitality">
+              <li><a class="dropdown-item" href="/colleges#usc-hospitality">
                 <img src="/images/logo-us-hospitality-landscape1.png" alt="Unity Skills College of Hospitality Logo" height="40">
                 <!-- Unity Skills College of Hospitality -->
               </a></li>
@@ -121,7 +121,7 @@
             </ul>
   
           </li>
-          <li class="nav-item"><a class="nav-link" href="/campus">Colleges</a></li>
+          <li class="nav-item"><a class="nav-link" href="/colleges">Colleges</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education Agents</a>
             <ul class="dropdown-menu">

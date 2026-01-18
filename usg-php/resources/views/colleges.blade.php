@@ -196,14 +196,14 @@ body {
   <div class="row g-4 mb-5">
     <!-- College of Health -->
     <div class="col-lg-6">
-    <div class="college-card college-health">
+    <div class="college-card college-health" id="usc-health">
       <div class="card-header">
         <div class="row">
           <div class="col-md-2">
             <img src="/images/Icon_US_Health-02.png" height="80">
           </div>
           <div class="col-md-10">
-            <h3 class="mb-0" id="usc-health">
+            <h3 class="mb-0">
                   Unity Skills College of Health
             </h3>
             <p class="mb-0 mt-2">Building the healthcare professionals of tomorrow</p>
@@ -376,14 +376,14 @@ body {
 
 <!-- College of Hospitality -->
 <div class="col-lg-6">
-<div class="college-card college-hospitality">
+<div class="college-card college-hospitality" id="usc-hospitality">
     <div class="card-header">
       <div class="row">
         <div class="col-md-2">
           <img src="/images/Icon_US_Hospitality-02.png" height="80">
         </div>
         <div class="col-md-10">
-          <h3 class="mb-0" id="usc-hospitality">
+          <h3 class="mb-0">
               Unity Skills College of Hospitality
           </h3>
           <p class="mb-0 mt-2">Crafting culinary and hospitality excellence</p>

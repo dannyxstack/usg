@@ -33,7 +33,7 @@
     </div>
   </section>
 
-  <section class="bg-white">
+  <section class="bg-white" id="aged-care">
     <div class="">
       <div class="container">
         <div class="row">
@@ -82,7 +82,7 @@
     </div>
   </section>
 
-  <section class="bg-lightblue">
+  <section class="bg-lightblue" id="early-childhood">
     <div class="">
       <div class="container  py-5 color-white">
         <div class="row">
@@ -123,7 +123,7 @@
     </div>
   </section>
 
-  <section class="bg-darkblue">
+  <section class="bg-darkblue" id="marketing">
     <div class="">
       <div class="container py-5 color-white">
         <div class="row py-5">
@@ -169,7 +169,7 @@
     </div>
   </section>
 
-  <section class="bg-lightblue">
+  <section class="bg-lightblue" id="business">
     <div class="">
       <div class="container py-5">
         <div class="row">
@@ -216,7 +216,7 @@
     </div>
   </section>
 
-  <section class="bg-white">
+  <section class="bg-white" id="automotive">
     <div class="">
       <div class="container py-5">
         <div class="row">
@@ -254,7 +254,7 @@
     </div>
   </section>
 
-  <section class="bg-lightblue">
+  <section class="bg-lightblue" id="cookery">
     <div class="">
       <div class="container py-5">
         <div class="row">
@@ -301,7 +301,7 @@
     </div>
   </section>
 
-  <section class="bg-darkblue">
+  <section class="bg-darkblue" id="english-courses">
     <div class="">
       <div class="container py-5 color-white">
         <div class="row">
