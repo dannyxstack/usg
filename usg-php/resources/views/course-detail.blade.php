@@ -37,7 +37,7 @@
             <div class="color-lightblue fs-4">{{ $course->code ?? '' }}</div>
             <div class="color-darkblue fs-2">Course overview</div>
             <p class="fs-4" >This is {{ $course->name ?? '' }} which enables you to be qualified as a ...</p>
-            <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
+            <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
           </div>
           <div class="mt-5 px-4 fs-4">
             <h2 class="fs-2 color-darkblue mb-2">Assessment Methodology</h2>
@@ -125,7 +125,7 @@
               </div>
 
               <div class="mx-5 px-5">
-                <a href="allcourses.html" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
+                <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
               </div>
 
             </div>
@@ -164,7 +164,7 @@
                 {!! nl2br(e($course->employment_pathways)) !!}
               </p>
               
-              <a href="allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 mb-4 ms-3 bg-darkblue">Start Here</a>
+              <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 mb-4 ms-3 bg-darkblue">Start Here</a>
 
 
             </div>

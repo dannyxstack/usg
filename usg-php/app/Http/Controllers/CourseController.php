@@ -8,6 +8,14 @@ class CourseController extends Controller {
 
     public function index() {
         $courses = Course::all();
+        foreach ($courses as &$course) {
+            if (strtolower($course->college) == 'hospitality') {
+                $course->apply_link = 'https://form.jotform.com/252850455284865';
+            }
+            else {
+                $course->apply_link = 'https://form.jotform.com/252428889922068';
+            }
+        }
         $title = 'All Courses';
         return view('allcourses', compact(
             'courses',
@@ -34,6 +42,13 @@ class CourseController extends Controller {
         $course = Course::where('code', $code)->firstOrFail();
         if (empty($course)) {
             abort(404, 'Course not found');
+        }
+
+        if (strtolower($course->college) == 'hospitality') {
+            $course->apply_link = 'https://form.jotform.com/252850455284865';
+        }
+        else {
+            $course->apply_link = 'https://form.jotform.com/252428889922068';
         }
 
         // 分离 Core 和 Elective Units

@@ -440,9 +440,29 @@ body {
   border-radius: 60px;
 }
 
+/* 放到你的 style.css 中 */
+.campus-location-img-box {
+  position: relative;           /* 建立定位上下文（可选，但推荐） */
+  overflow: hidden;             /* 核心：超出部分隐藏 */
+  transition: box-shadow 0.3s ease;  /* 可选：容器 hover 时加阴影 */
+  border: 1px solid #dee2e6;    /* 边框放在容器上 */
+  border-radius: 30px;          /* 圆角也放在容器上 */
+}
+
+.campus-location-img-box:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);  /* 可选：hover 抬升感 */
+}
+
 .campus-location-img {
   border-radius: 30px;
+  transition: transform 0.4s ease;   /* 平滑过渡 */
+  transform-origin: center center;   /* 从中心放大 */
 }
+
+.campus-location-img-box:hover .campus-location-img {
+  transform: scale(1.12);   /* 放大 12%，可调 1.1 ~ 1.2 之间最自然 */
+}
+
 
 .home-excellent-img {
   position: relative;
