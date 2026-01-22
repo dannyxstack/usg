@@ -234,6 +234,9 @@ body {
     background-color: #e7e7fb;
   }
 
+  .color-darkpurple {
+    color: #9c659c;
+  }
   /** svg colors **/
 
   .svg-inverted-filter {

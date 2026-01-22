@@ -18,6 +18,9 @@ Route::get('/campus', function () {
 Route::get('/whyus', function () {
     return view('whyus', ['title' => 'Why Us'] );
 });
+Route::get('/intakedates', function () {
+    return view('intake', ['title' => 'Intake Dates'] );
+});
 Route::get('/whyus.html', function () {
     return view('whyus');
 });
