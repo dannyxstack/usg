@@ -516,7 +516,7 @@
            AUD {{ number_format($course->course_fees['tuition']) }}</p>
           @endif
 
-          <a href="/promotional" class="" style="color: crimson">Click here for Promotional Pricelist</a>
+          <a href="/promotion" class="" style="color: crimson">Click here for Promotional Pricelist</a>
 
           <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-5 mt-3 bg-darkblue">Apply now -&gt;</a>
           

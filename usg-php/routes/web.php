@@ -21,6 +21,9 @@ Route::get('/whyus', function () {
 Route::get('/intakedates', function () {
     return view('intake', ['title' => 'Intake Dates'] );
 });
+Route::get('/promotion', function () {
+    return view('promotion', ['title' => 'Promotion Prices'] );
+});
 Route::get('/whyus.html', function () {
     return view('whyus');
 });
