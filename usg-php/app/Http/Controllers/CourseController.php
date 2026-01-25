@@ -44,6 +44,7 @@ class CourseController extends Controller {
             abort(404, 'Course not found');
         }
 
+        // should be in config or db
         if (strtolower($course->college) == 'hospitality') {
             $course->apply_link = 'https://form.jotform.com/252850455284865';
         }
