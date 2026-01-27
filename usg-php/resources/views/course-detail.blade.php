@@ -437,9 +437,9 @@
                       <h2 class="fs-1">Recognition of Prior Learning (RPL)/
                         Credit Transfer (CT)
                         </h2>
-                      <p class="fs-4">Penfold College will offer Recognition of Prior Learning (RPL)
+                      <p class="fs-4">Unity Skills Group will offer Recognition of Prior Learning (RPL)
                         and Credit Transfer (CT) to all prospective students 
-                        through the enrolment process. Penfold College has 
+                        through the enrolment process. Unity Skills Group has 
                         documented policies and procedures for these processes 
                         and students are provided details of how to apply for RPL or 
                         Credit Transfer through the enrolment process. For further 
@@ -462,14 +462,14 @@
                     <h2 class="fs-1 color-darkblue mt-3">Course Progress Policy</h2>
                     <div class="fs-5">
                       
-                      <p>Penfold College will monitor, records and assesses the course progress of each student for the course in which the student is enrolled. Course Progress Policy defines the requirements for student satisfactory course progress, the processes for monitoring, recording and assessing the student course progress and the processes for the Penfold College intervention strategies for identifying and assisting students to achieve satisfactory course progress. The procedure sets out the processes for reporting student unsatisfactory course progress on PRISMS according to ESOS Act Section 19.</p>
-                      <p>Penfold College assess student’s progress at the end of each compulsory Term. The Term is 11 weeks long for all qualifications on CRICOS scope. While every attempt would be made to keep consistency in term weeks, however number of weeks in the defined term may also factor in the duration and the completion of units of competency, which enable Penfold College to determine student participation and course progress in any given successfully completed term. One Term is considered the minimum length of time in which it is reasonable for the Administration Manager to make an assessment of a student’s course progress.</p>
+                      <p>Unity Skills Group will monitor, records and assesses the course progress of each student for the course in which the student is enrolled. Course Progress Policy defines the requirements for student satisfactory course progress, the processes for monitoring, recording and assessing the student course progress and the processes for the Unity Skills Group intervention strategies for identifying and assisting students to achieve satisfactory course progress. The procedure sets out the processes for reporting student unsatisfactory course progress on PRISMS according to ESOS Act Section 19.</p>
+                      <p>Unity Skills Group assess student’s progress at the end of each compulsory Term. The Term is 11 weeks long for all qualifications on CRICOS scope. While every attempt would be made to keep consistency in term weeks, however number of weeks in the defined term may also factor in the duration and the completion of units of competency, which enable Unity Skills Group to determine student participation and course progress in any given successfully completed term. One Term is considered the minimum length of time in which it is reasonable for the Administration Manager to make an assessment of a student’s course progress.</p>
                       <ul>
                       <li>Satisfactory course progress is achieved where a student successfully completes at least 50% of course requirements in a successfully completed Term.</li>
                       <li>Unsatisfactory progress is defined as not successfully completing or demonstrating competency in more than 50% of the course requirements in a successfully completed Term.</li>
                       <li>Course breach is defined as not successfully completing or demonstrating competency in more than 50% of the course requirements in TWO consecutives successfully completed Terms or NOT responding to intervention meeting invitation within 10 working days from the receiving the invitation.</li>
                       </ul>
-                      <p>Penfold College will also monitor overseas student attendance (but would not report, unless otherwise required) in the process of course progress monitoring and reporting. However overseas students must meet their visa obligations regarding attendance, wherever applicable.</p>
+                      <p>Unity Skills Group will also monitor overseas student attendance (but would not report, unless otherwise required) in the process of course progress monitoring and reporting. However overseas students must meet their visa obligations regarding attendance, wherever applicable.</p>
                       <p>You will also be provided with further information about course progress and attendance requirements at your orientation.  For further details, please refer to Course Progress Policy and Procedure.</p>
 
                     </div>

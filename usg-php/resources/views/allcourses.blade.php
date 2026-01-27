@@ -82,7 +82,7 @@
     </div>
   </section>
 
-  <section class="bg-lightblue" id="early-childhood">
+  <section class="bg-lightblue" id="childcare">
     <div class="">
       <div class="container  py-5 color-white">
         <div class="row">

@@ -78,7 +78,7 @@
               <img src="svg/Vector Header-15.svg" class="benefits-card-img svg-color-lightblue" alt="Cost icon">
             </div>
             <h2 class="pt-4 color-darkblue benefits-card-title">Cost Effective</h3>
-            <p class="fs-5 text-start ms-3">Penfold training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
+            <p class="fs-5 text-start ms-3">Unity Skills Group training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -87,7 +87,7 @@
               <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
             </div>
             <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-            <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+            <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -96,7 +96,7 @@
               <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
             </div>
             <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-            <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+            <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -141,7 +141,7 @@
                     <img src="svg/Vector Header-15.svg" class="benefits-card-img svg-color-lightblue" alt="Cost icon">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">Cost Effective</h3>
-                  <p class="fs-5 text-start ms-3">Penfold training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -150,7 +150,7 @@
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -159,7 +159,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -182,7 +182,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -206,7 +206,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
               <div class="col-md-4">
