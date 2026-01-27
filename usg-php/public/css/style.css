@@ -624,7 +624,7 @@ body {
   /* padding: 20px; */
 }
 .course-pathway-card-body {
-  height: 130px;
+  min-height: 66px;
 }
 
 .course-emp-pathway {
