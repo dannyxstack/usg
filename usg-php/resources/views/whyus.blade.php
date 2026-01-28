@@ -66,11 +66,19 @@
     </div>
   </section>
 
+  <section class="pb-5">
+    <div class="container text-center">
+      <h2 class="color-darkblue text-center">Company Milestones</h2>
+      <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
+      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
+    </div>
+  </section>
+
   <section class="bg-grey-color">
     <div class="bg-white-left-bottom">
 
-    <div class="container text-center py-5">
-      <h1 class="py-5 color-darkblue">Benefits of studying with us</h1>
+    <div class="container text-center pb-5">
+      <h1 class="pb-5 color-darkblue">Benefits of studying with us</h1>
       <div class="row" style="display: none;">
         <div class="col-md-4">
           <div class="benefits-card">
@@ -277,7 +285,7 @@
     </div>
   </section>
 
-  <section class="bg-white-color">
+  <section class="bg-white-color" style="display:none;">
     <div class="bg-grey-right-bottom">
 
       <div class="container py-5">
@@ -295,14 +303,14 @@
     </div>
   </section>
 
-  <section class="">
-    <div class="">
+  <section class="bg-grey-color">
+    <div class="bg-grey-right-bottom">
 
       <div class="container py-5">
         <div class="row">
           <div class="col-md-4 mt-5 px-5">
             <p class="" style="height: 80px;"></p>
-            <img src="svg/Vector Header-10.png" alt="Support illustration" class="img-fluid" style="max-height: 600px;">
+            <img src="svg/Vector Header-10.svg" alt="Support illustration" class="img-fluid" style="max-height: 600px;">
           </div>
           <div class="col-md-8 ">
             <h2 class="color-lightblue pt-5">Why Australia</h2>
@@ -319,6 +327,16 @@
                 ·       Quality of Life: With its safe cities, beautiful landscapes, and vibrant lifestyle, Australia offers an excellent balance between study and leisure.<br />
                 Studying in Australia is not just about gaining a qualification—it’s about building a global future with knowledge, skills, and unforgettable experiences.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="">
+
+      <div class="container py-5">
+        <div class="row">
           <div class="col-md-12 px-5">
             <h1 class="color-darkblue py-2" >Why Study in Melbourne?</h2>
             <p class="fs-5">
@@ -461,14 +479,6 @@
           <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="2"></button>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="pb-5">
-    <div class="container text-center">
-      <h2 class="color-darkblue text-center">Company Milestones</h2>
-      <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
-      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
     </div>
   </section>
 
