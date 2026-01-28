@@ -41,9 +41,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Aged Care and Community Services</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/CHC33021">CHC33021 Certificate III in Individual Support</a>
-                    <a class="dropdown-item" href="/course/CHC43015">CHC43015 Certificate IV in Ageing Support</a>
-                    <a class="dropdown-item" href="/course/CHC52021">CHC52021 Diploma of Community Services</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/CHC33021">CHC33021 Certificate III in Individual Support</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/CHC43015">CHC43015 Certificate IV in Ageing Support</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/CHC52021">CHC52021 Diploma of Community Services</a>
                   </li>
                 </ul>
               </li>
@@ -52,8 +52,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Early Childhood Education</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/CHC30121">CHC30121 Certificate III in Early Childhood Education and Care</a>
-                    <a class="dropdown-item" href="/course/CHC50121">CHC50121 Diploma of Early Childhood Education and Care</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/CHC30121">CHC30121 Certificate III in Early Childhood Education and Care</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/CHC50121">CHC50121 Diploma of Early Childhood Education and Care</a>
                   </li>
                 </ul>
               </li>
@@ -62,9 +62,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Marketing and Communication</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/BSB40820">BSB40820 Certificate IV in Marketing and Communication</a>
-                    <a class="dropdown-item" href="/course/BSB50620">BSB50620 Diploma of Marketing and Communication</a>
-                    <a class="dropdown-item" href="/course/BSB60520">BSB60520 Advanced Diploma of Marketing and Communication</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB40820">BSB40820 Certificate IV in Marketing and Communication</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB50620">BSB50620 Diploma of Marketing and Communication</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB60520">BSB60520 Advanced Diploma of Marketing and Communication</a>
                   </li>
                 </ul>
               </li>
@@ -73,9 +73,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Business and Management</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/BSB50420">BSB50420 Diploma of Leadership and Management</a>
-                    <a class="dropdown-item" href="/course/BSB60420">BSB60420 Advanced Diploma of Leadership and Management</a>
-                    <a class="dropdown-item" href="/course/BSB80120">BSB80120 Graduate Diploma of Management (Learning)</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB50420">BSB50420 Diploma of Leadership and Management</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB60420">BSB60420 Advanced Diploma of Leadership and Management</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/BSB80120">BSB80120 Graduate Diploma of Management (Learning)</a>
                   </li>
                 </ul>
               </li>
@@ -84,8 +84,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Automotive</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/AUR30620">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a>
-                    <a class="dropdown-item" href="/course/AUR40216">AUR40216 Certificate IV in Automotive Mechanical Diagnosis</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/AUR30620">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/AUR40216">AUR40216 Certificate IV in Automotive Mechanical Diagnosis</a>
                   </li>
                 </ul>
               </li>
@@ -94,8 +94,8 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >English Courses</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
-                    <a class="dropdown-item" href="/course/english-for-academic-purposes">English for Academic Purposes(EAP) Intermediate to Advanced</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
+                    <a class="dropdown-item" href="https://uscohealth.edu.au/course/english-for-academic-purposes">English for Academic Purposes(EAP) Intermediate to Advanced</a>
                   </li>
                 </ul>
               </li>
