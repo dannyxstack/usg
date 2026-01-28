@@ -177,7 +177,7 @@
               <div class="row">
                 <div class="col-md-6 py-2" style="padding-right: 0;" >
                   <div class="mt-5 course-review-card">
-                    <div class="color-lightblue fs-4">{{ $course->code ?? '' }}</div>
+                    <!-- <div class="color-lightblue fs-4">{{ $course->code ?? '' }}</div> -->
                     <div class="color-darkblue fs-2">Course overview</div>
                     <p class="fs-4" >This is {{ $course->name ?? '' }} which enables you to be qualified as a ...</p>
                     <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
@@ -191,7 +191,7 @@
                 </div>
                 <div class="col-md-6" style="padding-left: 0;">
                   <div class="course-detail-card fs-4">
-                    <h4 class="color-darkblue">{{ $course->code ?? '' }}</h4>
+                    <!-- <h4 class="color-darkblue">{{ $course->code ?? '' }}</h4> -->
                     <h2 class="color-darkblue">{{ $course->name ?? '' }}</h2>
                     <hr>
                     <p><span class="color-lightblue">Qualification CRICOS Code:</span> {{ $course->cricos_code ?? '' }}</p>
@@ -328,7 +328,7 @@
               <div class="row mb-5">
                 <h1 class="color-white fs-1">Course Structure:</h1>
                 <p class="color-white fs-4">A total of {{ $course->total_core_units+$course->total_electives_units }} Units ({{ $course->total_core_units }} Core and {{ $course->total_electives_units }} electives) must be completed and deemed competent to achieve the 
-                  qualification {{ $course->code }} {{ $course->name }}. Participants who achieve competency in any unit/
+                  qualification {{ $course->name }}. Participants who achieve competency in any unit/
                   s will receive a Statement of Attainment (provided USI is verified) for that unit/s without completing all {{ $course->total_core_units+$course->total_electives_units }} 
                   units in the qualification. Students completing all the required units of competency will attain full 
                   qualification.</p>
