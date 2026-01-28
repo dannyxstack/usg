@@ -54,7 +54,7 @@
           <h5 class="fs-4">Get In Touch</h5>
           <p><i class="fas fa-envelope me-2"></i> info@unityskills.edu.au</p>
           <p><i class="fas fa-phone me-2"></i> +61 3 8637 0343</p>
-          <p><i class="fas fa-map-marker-alt me-2"></i> Level 3, 123 Lonsdale Street, Melbourne</p>
+          <p><i class="fas fa-map-marker-alt me-2"></i><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer"> Level 3, 123 Lonsdale Street, Melbourne</a></p>
           <p>JOIN OUR COMMUNITY</p>
           <form>
             <input type="email" class="form-control" placeholder="Email*">
