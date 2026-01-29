@@ -39,7 +39,7 @@ class CourseController extends Controller {
      */
     public function detail($code) {
         // 根据代码查找课程
-        $course = Course::where('code', $code)->firstOrFail();
+        $course = Course::where('code', $code)->first();
         if (empty($course)) {
             $course = Course::where('cricos_code', $code)->first();
         }
