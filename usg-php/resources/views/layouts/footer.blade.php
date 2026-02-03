@@ -64,6 +64,6 @@
       </div>
     </div>
     <div class="copyright-row text-center py-5">
-      <p class="mb-0">&copy; {{ date('Y') }} Unity Skills Group. All rights reserved.</p>
+      <p class="mb-0">&copy; {{ date('Y') }} Unity Skills Group | ABN 55 332 783 140.. All rights reserved.</p>
     </div>
   </footer>
