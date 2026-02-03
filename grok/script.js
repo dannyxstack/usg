@@ -36,7 +36,12 @@ $(document).ready(function() {
       alert('请输入搜索内容');
       return;
     }
-  
+
+    // 母公司 unityskills.com.au
+    // 两个分校 uscohealth.edu.au
+    // uscohospitality.edu.au
+
+ 
     // 构造 Google 站内搜索 URL
     const searchUrl = `https://www.google.com/search?q=site:mysite.com ${encodeURIComponent(query)}`;
   

@@ -142,9 +142,9 @@
                 <a class="dropdown-item dropdown-toggle" href="#" role="button" >Cookery and Hospitality</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/course/SIT30821">SIT30821 Certificate III in Commercial Cookery</a>
-                    <a class="dropdown-item" href="/course/SIT40521">SIT40521 Certificate IV in Kitchen Management</a>
-                    <a class="dropdown-item" href="/course/SIT50422">SIT50422 Diploma of Hospitality</a>
+                    <a class="dropdown-item" href="https://uscohospitality.edu.au/course/SIT30821">SIT30821 Certificate III in Commercial Cookery</a>
+                    <a class="dropdown-item" href="https://uscohospitality.edu.au/course/SIT40521">SIT40521 Certificate IV in Kitchen Management</a>
+                    <a class="dropdown-item" href="https://uscohospitality.edu.au/course/SIT50422">SIT50422 Diploma of Hospitality</a>
                   </li>
                 </ul>
               </li>
