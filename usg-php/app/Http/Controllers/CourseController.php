@@ -17,18 +17,20 @@ class CourseController extends Controller {
             }
         }
         $title = 'All Courses';
+        $menu1 = 'all-courses';
         return view('allcourses', compact(
             'courses',
-            'title'
+            'title', 'menu1',
         ));
     }
 
     public function colleges() {
         $courses = Course::all();
         $title = 'Our Colleges';
+        $menu1 = 'colleges';
         return view('colleges', compact(
             'courses',
-            'title'
+            'title', 'menu1'
         ));
     }
 
@@ -92,6 +94,8 @@ class CourseController extends Controller {
 
         // print_r($coreUnits);exit;
 
+        $menu1 = 'all-courses';
+
         return view('course-detail', compact(
             'course',
             'coreUnits', 
@@ -101,7 +105,7 @@ class CourseController extends Controller {
             'randomCourses3',
             'randomCourses4',
 
-            'title'
+            'title', 'menu1',
         ));
     }
 }

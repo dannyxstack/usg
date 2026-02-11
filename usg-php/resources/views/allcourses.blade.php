@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="/images/courses-banner1.png" alt="Courses Banner" class="img-fluid">
+          <img src="/svg/Vector Header-09.svg" alt="Courses Banner" class="img-fluid" style="position: relative;top: -50px;">
         </div>
       </div>
 
