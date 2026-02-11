@@ -21,9 +21,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto nav-underline">
           <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/whyus">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/whyus">Why Us</a></li>
           <li class="nav-item dropdown">
             <!-- 1-2 layer -->
             <a class="nav-link dropdown-toggle" href="/allcourses" >Courses</a>
