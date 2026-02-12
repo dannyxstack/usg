@@ -60,12 +60,12 @@ body {
 
 .college-health .card-header {
     /* background-color: #1a5f7a; */
-    background-color: #9292ed;
+    background-color: #9C649B;
 }
 
 .college-hospitality .card-header {
     /* background-color: #57cc99; */
-    background-color: #42c3da;
+    background-color: #AC8E3B;
 }
 
 .college-card .card-header {
@@ -205,7 +205,7 @@ body {
           <div class="col-md-10">
             <h3 class="mb-0">
                   Unity Skills College of Health
-              <a href="://uscohealth.edu.au" target="_blank" class="ms-2 text-white">
+              <a href="://uscohealth.edu.au" target="_blank" class="ms-2 text-white fs-5">
                 <i class="fas fa-external-link-alt"></i>
               </a>
 
@@ -218,7 +218,7 @@ body {
         <p class="card-text">Our College of Health provides comprehensive training in healthcare disciplines, combining theoretical knowledge with practical skills for real-world application.</p>
         
         <!-- Tabs for Course Categories -->
-        <ul class="nav nav-tabs" id="healthTabs" role="tablist">
+        <ul class="nav nav-tabs" id="healthTabs" role="tablist" style="height: 100px;">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="aged-care-tab" data-bs-toggle="tab" data-bs-target="#aged-care" type="button">Aged Care</button>
             </li>
@@ -226,7 +226,7 @@ body {
                 <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing" type="button">Marketing</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="childhood-edu-tab" data-bs-toggle="tab" data-bs-target="#childhood-edu" type="button">Early Childhood<br> Education</button>
+                <button class="nav-link" id="childcare-tab" data-bs-toggle="tab" data-bs-target="#childcare" type="button">Childcare</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button">Business</button>
@@ -287,7 +287,7 @@ body {
           </div>
 
           <!-- Early Childhood Education -->
-          <div class="tab-pane fade" id="childhood-edu" role="tabpanel">
+          <div class="tab-pane fade" id="childcare" role="tabpanel">
               <div class="row g-4">
                 @foreach ($courses as $courseItem)
                   @if ($courseItem->class == 'Early Childhood Education')
@@ -402,7 +402,7 @@ body {
         <p class="card-text">Our College of Hospitality delivers industry-focused training in culinary arts and hospitality management, preparing students for dynamic careers in the global hospitality sector.</p>
         
         <!-- Tabs for Course Categories -->
-        <ul class="nav nav-tabs" id="hospitalityTabs" role="tablist" style="padding-top: 54px;">
+        <ul class="nav nav-tabs" id="hospitalityTabs" role="tablist" style="height: 100px; align-items: center;;">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="cookery-tab" data-bs-toggle="tab" data-bs-target="#cookery" type="button">Cookery</button>
             </li>
