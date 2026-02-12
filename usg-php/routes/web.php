@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ContactController;
 
+Route::get('/', function () {
+    return view('home', ['title' => 'Home', 'menu1' => 'home']);
+});
 Route::get('/index', function () {
     return view('home', ['title' => 'Home', 'menu1' => 'home']);
 });
