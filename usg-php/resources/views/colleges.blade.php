@@ -54,7 +54,7 @@ body {
 }
 
 .college-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -203,7 +203,7 @@ body {
             <img src="/images/Icon_US_Health-02.png" height="80">
           </div>
           <div class="col-md-10">
-            <h3 class="mb-0">
+            <h3 class="mb-0" style="align-items: center;">
                   Unity Skills College of Health
               <a href="://uscohealth.edu.au" target="_blank" class="ms-2 text-white fs-5">
                 <i class="fas fa-external-link-alt"></i>
@@ -387,9 +387,9 @@ body {
           <img src="/images/Icon_US_Hospitality-02.png" height="80">
         </div>
         <div class="col-md-10">
-          <h3 class="mb-0">
+          <h3 class="mb-0" style="align-items: center;">
               Unity Skills College of Hospitality 
-              <a href="://uscohospitality.edu.au" target="_blank" class=" text-white">
+              <a href="://uscohospitality.edu.au" target="_blank" class="ms-2 text-white fs-5">
                 <i class="fas fa-external-link-alt"></i>
               </a>
           </h3>
