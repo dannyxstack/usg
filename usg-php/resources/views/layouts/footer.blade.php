@@ -4,7 +4,7 @@
       <div class="row footer-start-here">
         <div class="col-md-4"></div>
         <div class="col-md-8">
-          <p class="fs-4">Join 5,000+ successful graduates who transformed their future with USG. 
+          <p class="fs-5">Join 5,000+ successful graduates who transformed their future with USG. 
             Let's begin your journey together - our team is here to guide you every step of the way.</p>
           
           <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
@@ -37,24 +37,24 @@
         <div class="col-md-4">
           <h5 class="fs-4">Navigation</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="/index">Home</a></li>
-            <li class="mb-2"><a href="/whyus">Why Us</a></li>
-            <li class="mb-2"><a href="/campus">Our Campus</a></li>
-            <li class="mb-2"><a href="/colleges">Colleges</a></li>
-            <li class="mb-2"><a href="/allcourses">All Courses</a></li>
-            <li class="mb-2"><a href="/intakedates">Intake Dates</a></li>
-            <li class="mb-2"><a href="/promotion">Promotion Prices</a></li>
-            <!-- <li class="mb-2"><a href="/agentlist">Education Agents</a></li> -->
-            <li class="mb-2"><a href="/contact">Contact Us</a></li>
-            <!-- <li class="mb-2"><a href="policies.html">Policies</a></li> -->
-            <!-- <li class="mb-2"><a href="https://form.jotform.com/252581213016043">Apply Now</a></li> -->
+            <li class="mb-1"><a href="/index">Home</a></li>
+            <li class="mb-1"><a href="/why-us">Why Us</a></li>
+            <li class="mb-1"><a href="/campus">Our Campus</a></li>
+            <li class="mb-1"><a href="/colleges">Colleges</a></li>
+            <li class="mb-1"><a href="/all-courses">All Courses</a></li>
+            <li class="mb-1"><a href="/intake-dates">Intake Dates</a></li>
+            <li class="mb-1"><a href="/promotion">Promotion Prices</a></li>
+            <!-- <li class="mb-1"><a href="/agentlist">Education Agents</a></li> -->
+            <li class="mb-1"><a href="/contact">Contact Us</a></li>
+            <!-- <li class="mb-1"><a href="policies.html">Policies</a></li> -->
+            <!-- <li class="mb-1"><a href="https://form.jotform.com/252581213016043">Apply Now</a></li> -->
           </ul>
         </div>
         <div class="col-md-4">
           <h5 class="fs-4">Get In Touch</h5>
-          <p><i class="fas fa-envelope me-2"></i> info@unityskills.com.au</p>
-          <p><i class="fas fa-phone me-2"></i> +61 3 8637 0343</p>
-          <p><i class="fas fa-map-marker-alt me-2"></i><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer"> Level 3, 123 Lonsdale Street, Melbourne</a></p>
+          <p class="mb-2"><i class="fas fa-envelope me-2"></i> info@unityskills.com.au</p>
+          <p class="mb-2"><i class="fas fa-phone me-2"></i> +61 3 8637 0343</p>
+          <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer"> Level 3, 123 Lonsdale Street, Melbourne</a></p>
           <p>JOIN OUR COMMUNITY</p>
           <form>
             <input type="email" class="form-control" placeholder="Email*">
