@@ -254,7 +254,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -276,7 +276,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -298,7 +298,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -320,7 +320,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -342,7 +342,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -364,7 +364,7 @@ body {
                               <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                               <h5>{{ $courseItem->name }}</h5>
                               <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                              <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                              <a href="https://uscohealth.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                           </div>
                       </div>
                   </div>
@@ -425,7 +425,7 @@ body {
                                 <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                                 <h5>{{ $courseItem->name }}</h5>
                                 <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                                <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                                <a href="https://uscohospitality.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -447,7 +447,7 @@ body {
                                 <span class="cricos-code">CRICOS: {{ $courseItem->cricos_code }}</span>
                                 <h5>{{ $courseItem->name }}</h5>
                                 <!-- <p class="small text-muted">Specializing in aged care and disability support.</p> -->
-                                <a href="/course/{{ $courseItem->code }}" class="btn btn-sm btn-outline-primary">View Details</a>
+                                <a href="https://uscohospitality.edu.au/course/{{ $courseItem->kname }}" class="btn btn-sm btn-outline-primary">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -575,7 +575,9 @@ body {
     </div>
   </section>
 
-  <section class="py-5 bg-white">
+  <section class="bg-lightblue">
+    <div class="bg-white-round-right-bottom">
+
     <div class="container">
       <div class="row">
         <div class="col-md-6" style="padding-top: 100px;">
@@ -612,7 +614,8 @@ body {
         </div>
       </div>
 
-    </div>
+    </div>    </div>
+
   </section>
 
 

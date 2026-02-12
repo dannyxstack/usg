@@ -508,7 +508,7 @@
           {{ $course->duration }}
           </p>
           <p class=""><b>Next Intake:</b><br>
-          February 2026
+          {{ date('F Y', time()+86400*15) }}
           </p>
 
           @if (isset($course->course_fees) && !empty($course->course_fees))
