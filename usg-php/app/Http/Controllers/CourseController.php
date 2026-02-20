@@ -18,9 +18,12 @@ class CourseController extends Controller {
         }
         $title = 'All Courses';
         $menu1 = 'all-courses';
+        $description = 'Explore our comprehensive range of courses at Unity Skills Group, designed to equip you with the skills and knowledge needed for success in your chosen career. From hospitality to business and more, our quality courses are tailored to meet industry demands and help you achieve your vocational education goals in Australia.';
+        $keywords = 'Unity Skills Group courses, vocational education, hospitality courses, business courses, industry-relevant courses, career success, skills and knowledge, Australia education';
         return view('allcourses', compact(
             'courses',
             'title', 'menu1',
+            'description', 'keywords',
         ));
     }
 
@@ -28,9 +31,12 @@ class CourseController extends Controller {
         $courses = Course::all();
         $title = 'Our Colleges';
         $menu1 = 'colleges';
+        $description = 'Discover our diverse range of colleges at Unity Skills Group, each offering specialized courses designed to equip you with the skills and knowledge needed for success in your chosen career. Explore our hospitality, business, and other industry-relevant colleges to find the perfect fit for your vocational education journey in Australia.';
+        $keywords = 'Unity Skills Group colleges, vocational education, hospitality college, business college, industry-relevant colleges, career success, skills and knowledge, Australia education';
         return view('colleges', compact(
             'courses',
-            'title', 'menu1'
+            'title', 'menu1',
+            'description', 'keywords',
         ));
     }
 
@@ -95,6 +101,8 @@ class CourseController extends Controller {
         // print_r($coreUnits);exit;
 
         $menu1 = 'all-courses';
+        $description = 'Discover the details of ' . $course->name . ' at Unity Skills Group. This course offers comprehensive training in ' . $course->college . ', designed to equip you with the skills and knowledge needed for success in your chosen career. Explore the course structure, fees, entry requirements, and more to make an informed decision about your vocational education journey in Australia.';
+        $keywords = 'Unity Skills Group ' . $course->name . ', ' . $course->college . ' course, vocational education, course structure, course fees, entry requirements, career success, skills and knowledge, Australia education';
 
         return view('course-detail', compact(
             'course',
@@ -106,6 +114,7 @@ class CourseController extends Controller {
             'randomCourses4',
 
             'title', 'menu1',
+            'description', 'keywords',
         ));
     }
 }
