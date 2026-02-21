@@ -393,6 +393,13 @@
   .color-white {
     color: white;
   }
+  .color-lightgrey {
+    color: #949494;
+  }
+  .color-darkgrey {
+    color: #585858;
+  }
+  
   .color-yellow {
     color: #fed66f;
   }
