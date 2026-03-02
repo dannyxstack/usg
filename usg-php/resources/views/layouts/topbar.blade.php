@@ -14,8 +14,8 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="/images/logo-colored.png" alt="Unity Skills Group Logo" height="80">
+      <a class="navbar-brand py-2" href="/">
+        <img src="/images/usg-logo-colored.png" alt="Unity Skills Group Logo" height="48">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -167,7 +167,9 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='contact') em @endif" href="/contact">Contact Us</a></li>
-          <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='apply') em @endif" href="/all-courses">Apply Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://unityskills.instructure.com/">Student Portal</a></li>
+          <!-- <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='apply') em @endif" href="/all-courses">Apply Now</a></li> -->
+          <li class="nav-item"><a href="/allcourses" class="nav-link btn btn-apply me-2">Apply now </a></li>
         </ul>
       </div>
     </div>

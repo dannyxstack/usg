@@ -13,22 +13,15 @@
       <div class="row footer-logo-row">
         <div class="col-md-3">
           
-          <a href="/index" class="navbar-brand">
-            <img src="/images/logo-white.png" alt="Unity Skills Group Logo" height="80">
-          </a>
         </div>
         <div class="col-md-9">
         </div>
       </div>
       <div class="row footer-nav-row mt-3">
         <div class="col-md-4">
-          <h5 class="mb-4 fs-4">Follow Us</h5>
-          <div class="d-flex gap-3">
-              <a href="https://www.facebook.com/profile.php?id=100078400561598" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
-              <!-- <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a> -->
-              <a href="https://www.instagram.com/penfold060?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
-              <!-- <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a> -->
-          </div>
+          <a href="/index" class="navbar-brand">
+            <img src="/images/usg-logo-white.png" alt="Unity Skills Group Logo" height="54">
+          </a>
           <!-- <p>Follow us</p>
           <p>Email</p>
           <p>Phone</p>
@@ -55,6 +48,13 @@
           <p class="mb-2"><i class="fas fa-envelope me-2"></i> info@unityskills.com.au</p>
           <p class="mb-2"><i class="fas fa-phone me-2"></i> +61 3 8637 0343</p>
           <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer"> Level 3, 123 Lonsdale Street, Melbourne</a></p>
+          <h5 class="mb-3 fs-4">Follow Us</h5>
+          <div class="d-flex gap-3 mb-3">
+              <a href="https://www.facebook.com/profile.php?id=100078400561598" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <!-- <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a> -->
+              <a href="https://www.instagram.com/penfold060?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+              <!-- <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a> -->
+          </div>
           <p>JOIN OUR COMMUNITY</p>
           <form>
             <input type="email" class="form-control" placeholder="Email*">
@@ -63,7 +63,7 @@
         </div>
       </div>
     </div>
-    <div class="copyright-row text-center py-5">
+    <div class="copyright-row text-center py-2">
       <p class="mb-0">&copy; {{ date('Y') }} Unity Skills Group | ABN 55 332 783 140.. All rights reserved.</p>
     </div>
   </footer>
