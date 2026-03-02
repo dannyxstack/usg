@@ -186,7 +186,7 @@
   .navbar {
     background-color: var(--white);
     --bs-navbar-padding-y: 0 !important; /* Reduce vertical padding */
-    font-size: 90%;
+    /* font-size: 90%; */
   }
   .navbar-brand {
     font-weight: bold;
