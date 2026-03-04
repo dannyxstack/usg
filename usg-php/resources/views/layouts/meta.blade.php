@@ -1,2 +1,4 @@
 <meta name="description" content="{{ $description ?? '' }}">
 <meta name="keywords" content="{{ $keywords ?? '' }}">
+
+<link rel="canonical" href="https://unityskills.com.au/{{ request()->path() }}">
