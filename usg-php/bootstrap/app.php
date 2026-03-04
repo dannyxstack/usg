@@ -4,7 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
 use App\Http\Middleware\ShareCoursesForMenu;
-
+use App\Http\Middleware\RedirectStagingToProduction;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -18,6 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
             // \Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class, // 这个是个操蛋的类，不生效
         // ]);
         // $middleware->validateCsrfTokens();
+        $middleware->prepend(RedirectStagingToProduction::class);
         $middleware->append(ShareCoursesForMenu::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
