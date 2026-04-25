@@ -948,3 +948,7 @@
 .college-carousel-item {
   height: 500px;
 }
+
+.campus-location-img-frame:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);  /* 可选：hover 抬升感 */
+}

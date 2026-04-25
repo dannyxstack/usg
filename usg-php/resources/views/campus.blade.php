@@ -160,11 +160,12 @@
             <p class="color-white fs-5"><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">123 Lonsdale Street</a> is conveniently located in Melbourne's most sought after education precinct within close proximity to all forms of public transport. </p>
           </div>
           <div class="col-md-6">
-            <div class="campus-location-img-box">
+            <iframe class="campus-location-img-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d788.0292080080999!2d144.9680676285668!3d-37.8107323387145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642c9141170b3%3A0x96508f79a8d175dc!2s123%20Lonsdale%20St%2C%20Melbourne%20VIC%203000!5e0!3m2!1sen!2sau!4v1777123218757!5m2!1sen!2sau" width="600" height="450" style="border:0;border-radius:30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <div class="campus-location-img-box">
               <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">
                 <img src="/images/location2.png" alt="College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
