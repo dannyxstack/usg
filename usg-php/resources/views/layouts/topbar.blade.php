@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto nav-underline">
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='home') em @endif" href="/index">Home</a></li>
-          <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='why-us') em @endif" href="/why-us">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='why-us') em @endif" href="/why-us">About Us</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='all-courses') em @endif" href="/all-courses">Courses</a>
             <ul class="dropdown-menu">
@@ -163,7 +163,7 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='contact') em @endif" href="/contact">Contact Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://unityskills.instructure.com/">Student Portal</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://unityskills.instructure.com/"><span class="fw-bolder">Student Portal</span></a></li>
           <!-- <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='apply') em @endif" href="/all-courses">Apply Now</a></li> -->
           <li class="nav-item"><a href="/allcourses" class="nav-link btn btn-apply me-2">Apply now </a></li>
         </ul>

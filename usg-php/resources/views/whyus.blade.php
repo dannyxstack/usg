@@ -21,11 +21,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6" style="padding-top: 100px;">
-          <h2 class="color-lightblue">Why USG</h2>
-          <p class="color-darkblue fs-2">Choose USG: Where Industry-Relevant Training Meets Personalized Support for International Student Success.</p>
-          <p class="fs-4">At USG, We Don't Just Teach Skills - We Build Careers with Modern Training and Dedicated Student Support. 
-            Join 5,000+ Graduates Who Chose USG for Practical Skills, Industry Connections, and Career Transformation. 
-            Your Australian Dream Starts Here: USG Combines Quality Education with the Support You Need to Succeed.
+          <h2 class="color-lightblue">Why Unity Skills Group</h2>
+          <p class="color-darkblue fs-2">Choose Unity Skills Group: Where Industry-Relevant Training Meets Personalized Support for International Student Success.</p>
+          <p class="fs-4">At Unity Skills Group, We Don't Just Teach Skills - We Build Careers with Modern Training and Dedicated Student Support. 
+            Join 5,000+ Graduates Who Chose Unity Skills Group for Practical Skills, Industry Connections, and Career Transformation. 
+            Your Australian Dream Starts Here: Unity Skills Group Combines Quality Education with the Support You Need to Succeed.
           </p>
         </div>
         <div class="col-md-6">
@@ -66,11 +66,11 @@
     </div>
   </section>
 
-  <section class="pb-5">
+  <section class="pb-5" style="display: none;">
     <div class="container text-center">
       <h2 class="color-darkblue text-center">Company Milestones</h2>
       <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
-      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
+      <img src="/images/usg-milestone1.png" alt="Unity Skills Group History" class="img-fluid">
     </div>
   </section>
 
@@ -94,8 +94,8 @@
             <div class="benefits-card-img mx-auto d-block bg-darkblue" >
               <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-            <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+            <h2 class="pt-4 color-darkblue benefits-card-title">Campus Easy to Access</h3>
+            <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer lab, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -104,7 +104,7 @@
               <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
             </div>
             <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-            <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+            <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating training for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualifications, together with their academic qualifications and vast experience within the relevant industry.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -113,7 +113,7 @@
               <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
             </div>
             <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
-            <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
+            <p class="fs-5 text-start ms-3">Our computer lab is equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -122,7 +122,7 @@
               <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
             </div>
             <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
-            <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
+            <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. </p>
           </div>
         </div>
         <div class="col-md-4">
@@ -157,8 +157,8 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" >
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+                  <h2 class="pt-4 color-darkblue benefits-card-title">Campus Easy to Access</h3>
+                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer lab, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -167,7 +167,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating training for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualifications, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
             </div>
@@ -180,8 +180,8 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" >
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
-                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
+                  <h2 class="pt-4 color-darkblue benefits-card-title">Campus Easy to Access</h3>
+                  <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Unity Skills Group facilities boast modern classrooms and computer lab, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -190,7 +190,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating training for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualifications, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -199,7 +199,7 @@
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
                   <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
-                  <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
+                  <p class="fs-5 text-start ms-3">Our computer lab is equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
-                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+                  <p class="fs-5 text-start ms-3">Unity Skills Group trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating training for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualifications, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -223,7 +223,7 @@
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
                   <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
-                  <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
+                  <p class="fs-5 text-start ms-3">Our computer lab is equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -232,7 +232,7 @@
                     <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
-                  <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
+                  <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. </p>
                 </div>
               </div>
             </div>
@@ -246,7 +246,7 @@
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
                   <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
-                  <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
+                  <p class="fs-5 text-start ms-3">Our computer lab is equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -255,7 +255,7 @@
                     <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
                   <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
-                  <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
+                  <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. </p>
                 </div>
               </div>
               <div class="col-md-4">
@@ -285,24 +285,6 @@
     </div>
   </section>
 
-  <section class="bg-white-color" style="display:none;">
-    <div class="bg-grey-right-bottom">
-
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-6 mt-5">
-            <h2 class="color-lightblue pt-5">Why USG</h2>
-            <h1 class="color-darkblue py-2" >What Makes USG Different</h2>
-            <p class="fs-5">At USG, we combine practical, industry-focused training with comprehensive student support services designed specifically for international students. Unlike traditional institutions, we provide hands-on learning experiences, strong employer connections, and flexible study options that fit your lifestyle while ensuring you gain the skills Australian employers actually need.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="svg/Vector Header-09.svg" alt="Support illustration" class="img-fluid" style="max-height: 500px;">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="bg-grey-color">
     <div class="bg-grey-right-bottom">
 
@@ -314,18 +296,24 @@
           </div>
           <div class="col-md-8 ">
             <h2 class="color-lightblue pt-5">Why Australia</h2>
-            <h1 class="color-darkblue py-2" >Why Study in Australia?</h2>
+            <h1 class="color-darkblue py-2" >Why Study in Australia?</h1>
 
-            	<p class="fs-5">
-                Australia is one of the world’s leading destinations for international education, offering students a unique combination of academic excellence, cultural diversity, and lifestyle opportunities. With globally recognized qualifications and a strong reputation for high-quality education, studying in Australia opens doors to worldwide career prospects.<br />
-                <strong>Key Reasons to Study in Australia:</strong><br />
-                ·       World-Class Education: Australian institutions consistently rank among the top globally, with qualifications respected internationally.<br />
-                ·       Wide Range of Courses: From vocational training to university degrees, students can choose pathways that align with their career goals.<br />
-                ·       Multicultural Environment: Australia is home to people from over 200 cultural backgrounds, creating a welcoming and inclusive learning environment.<br />
-                ·       Strong Student Support: International students benefit from comprehensive support services, ensuring a smooth academic and personal transition.<br />
-                ·       Work Opportunities: Students can gain valuable experience through part-time work while studying and post-study work options after graduation.<br />
-                ·       Quality of Life: With its safe cities, beautiful landscapes, and vibrant lifestyle, Australia offers an excellent balance between study and leisure.<br />
-                Studying in Australia is not just about gaining a qualification—it’s about building a global future with knowledge, skills, and unforgettable experiences.</p>
+            <p class="fs-5">
+                Australia is one of the world’s leading destinations for international education, offering students a unique combination of academic excellence, cultural diversity, and lifestyle opportunities. With globally recognized qualifications and a strong reputation for high-quality education, studying in Australia opens doors to worldwide career prospects.
+              </p>
+
+              <strong class="fs-5">Key Reasons to Study in Australia:</strong>
+              <ul>
+                <li>World-Class Education: Australian institutions consistently rank among the top globally, with qualifications respected internationally.             </li>
+                <li>Wide Range of Courses: From vocational training to university degrees, students can choose pathways that align with their career goals.             </li>
+                <li>Multicultural Environment: Australia is home to people from over 200 cultural backgrounds, creating a welcoming and inclusive learning environment. </li>
+                <li>Strong Student Support: International students benefit from comprehensive support services, ensuring a smooth academic and personal transition.     </li>
+                <li>Work Opportunities: Students can gain valuable experience through part-time work while studying and post-study work options after graduation.       </li>
+                <li>Quality of Life: With its safe cities, beautiful landscapes, and vibrant lifestyle, Australia offers an excellent balance between study and leisure.</li>
+              </ul>
+              <p class="fs-5">
+                Studying in Australia is not just about gaining a qualification—it’s about building a global future with knowledge, skills, and unforgettable experiences.
+              </p>
           </div>
         </div>
       </div>
@@ -466,7 +454,7 @@
 
   <section class="py-5 " style="display:none;">
     <div class="container">
-      <h2>Why USG Campuses Easy to Access</h2>
+      <h2>Why Unity Skills Group Campus Easy to Access</h2>
       <div id="campusCarousel" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active"><img src="https://placehold.co/300x200" alt="Campus 1" class="d-block w-100"></div>
