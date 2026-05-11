@@ -1,10 +1,10 @@
   <!-- footer -->
   <footer class="footer section-bg-footer">
     <div class="container">
-      <div class="row footer-start-here">
+      <div class="row footer-start-here color-darkgrey">
         <div class="col-md-4"></div>
         <div class="col-md-8">
-          <p class="fs-5 color-darkgrey">Join 5,000+ successful graduates who transformed their future with Unity Skills Group. 
+          <p class="fs-5">Join 5,000+ successful graduates who transformed their future with Unity Skills Group. 
             Let's begin your journey together - our team is here to guide you every step of the way.</p>
           
           <a href="/allcourses" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a>
@@ -65,6 +65,14 @@
       </div>
     </div>
     <div class="copyright-row text-center py-2">
+      <div style="display: flex; ">
+        <img style="width:60px;height:40px;margin-left:10px;" src="/images/flag_country_aboriginal.png" loading="lazy" alt="Australian Aboriginal Flag">
+        <img style="width:60px;height:40px;margin-left:10px;" src="/images/flag_country_torres-strait-islanders.png" loading="lazy" alt="Flag of Torres Strait Islands">
+        <p class="mt-2 mb-1">
+          We acknowledge all Aboriginal and Torres Strait Islander Traditional Custodians of Country and recognise their
+          continuing connection to land, sea, culture and community. We pay our respects to Elders past and present.
+        </p>
+      </div>
       <p class="mb-0">&copy; {{ date('Y') }} Unity Skills Group | ABN 55 332 783 140.. All rights reserved.</p>
     </div>
   </footer>
