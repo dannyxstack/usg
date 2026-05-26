@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('enquiry_type')->nullable();
             $table->boolean('is_read')->default(false);
             $table->timestamps();
+            $table->string('host')->nullable();
         });
     }
 
