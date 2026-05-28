@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 
 use Filament\Forms;
 use Filament\Forms\Components\Select;
+use \MarcoGermani87\FilamentCaptcha\Forms\Components\CaptchaField;
 
 class UserForm
 {
