@@ -38,6 +38,7 @@ class Login extends BaseLogin
                 $this->getRememberFormComponent(),
                 CaptchaField::make('captcha')
                     ->label('Captcha')
+                    // ->hint('Alphabets, No Numbers.')
                     ->mutateStateForValidationUsing(fn (string $state) => strtolower($state))
                     ->required(),
             ]);
