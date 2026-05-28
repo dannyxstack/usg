@@ -13,6 +13,8 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+
+// use Illuminate\Database\Eloquent\Model;
 use UnitEnum;
 
 class UserResource extends Resource
@@ -48,4 +50,22 @@ class UserResource extends Resource
             'edit' => EditUser::route('/{record}/edit'),
         ];
     }
+
+    public static function canViewAny(): bool
+    {
+        // 检查当前登录用户是否有 'view_user' 这个权限
+        return auth()->user()->can('view_any_user');
+    }
+    // 控制"创建"按钮和页面
+    public static function canCreate(): bool
+    {
+        return auth()->user()->can('create_user');
+    }
+
+    // // 控制具体某个用户的"编辑"按钮和页面
+    // public function canEdit(Model $record): bool
+    // {
+    //     return auth()->user()->can('update_user');
+    // }
+
 }
