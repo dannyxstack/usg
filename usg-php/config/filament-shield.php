@@ -264,4 +264,15 @@ return [
 
     'register_role_policy' => true,
 
+    // not available
+    // 'navigation' => [
+    //     'enabled' => true,
+    //     'group' => [
+    //         'enabled' => true,
+    //         'label' => 'System',
+    //     ],
+    //     'sort' => 1,
+    //     'icon' => 'heroicon-o-shield-check',
+    // ],
+
 ];

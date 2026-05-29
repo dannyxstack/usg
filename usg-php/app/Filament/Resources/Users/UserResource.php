@@ -51,16 +51,36 @@ class UserResource extends Resource
         ];
     }
 
+    // public static function canAccess(): bool
+    // {
+    //     // 如果是admin，则直接返回true
+    //     if (auth()->user()->hasRole('super_admin')) {
+    //         return true;
+    //     }
+    //     // 检查当前登录用户是否有 'view_user' 这个权限
+    //     return auth()->user()->can('view_any_user');
+    // }
+
     public static function canViewAny(): bool
     {
+        // 如果是admin，则直接返回true
+        if (auth()->user()->hasRole('super_admin')) {
+            return true;
+        }
         // 检查当前登录用户是否有 'view_user' 这个权限
-        return auth()->user()->can('view_any_user');
+        // return auth()->user()->can('view_any_user');
+        return auth()->user()->can('ViewAny:User');
     }
     // 控制"创建"按钮和页面
-    public static function canCreate(): bool
-    {
-        return auth()->user()->can('create_user');
-    }
+    // public static function canCreate(): bool
+    // {
+    //     // 如果是admin，则直接返回true
+    //     if (auth()->user()->hasRole('super_admin')) {
+    //         return true;
+    //     }
+    //     // return auth()->user()->can('create_user');
+    //     return auth()->user()->can('Create:User');
+    // }
 
     // // 控制具体某个用户的"编辑"按钮和页面
     // public function canEdit(Model $record): bool
