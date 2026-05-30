@@ -43,6 +43,7 @@ class RoleResource extends Resource
     protected static ?string $recordTitleAttribute = 'name';
 
     // protected static UnitEnum|string|null $navigationGroup = 'System'; // not available
+    // protected static string | UnitEnum | null $navigationGroup = 'System'; // not available
     
 
 
@@ -172,4 +173,12 @@ class RoleResource extends Resource
     {
         return FilamentShieldPlugin::get();
     }
+
+    // available 
+    public static function getNavigationGroup(): string | UnitEnum | null
+    {
+        return 'System';
+    }
 }
+
+
